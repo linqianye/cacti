@@ -20,7 +20,7 @@ msgstr ""
 
 #: about.php:29 include/global_arrays.php:2719 lib/html.php:2726
 msgid "About Cacti"
-msgstr "关于Cacti"
+msgstr "关于 Cacti"
 
 #: about.php:44
 msgid "Cacti is designed to be a complete graphing solution based on the RRDtool Time Series Database (TSDB) and Graphing solution. Its goal is to make the Network Administrator's job easier by taking care of all the important details necessary to create meaningful Graphs."
@@ -45,7 +45,7 @@ msgstr "荣誉提名"
 
 #: about.php:64
 msgid "Contributors to Docuemntation, QA, Packaging, the Forums and our YouTube page."
-msgstr "文档、QA、打包以及论坛和我们的YouTube页面的贡献者"
+msgstr "文档、QA、打包、论坛和我们的YouTube页面的贡献者"
 
 #: about.php:74
 msgid "Emeritus Members"
@@ -850,31 +850,27 @@ msgstr "未找到聚合模板"
 
 #: auth_2fa.php:115
 msgid "Failed to verify token"
-msgstr ""
+msgstr "验证令牌失败"
 
 #: auth_2fa.php:135
-#, fuzzy
 msgid "2FA Verification"
-msgstr "删除验证"
+msgstr "2FA验证"
 
 #: auth_2fa.php:135
-#, fuzzy
 msgid "2nd Factor Authentication"
-msgstr "Web 基本身份认证"
+msgstr "双因素身份验证"
 
 #: auth_2fa.php:135
-#, fuzzy
 msgid "Enter your token"
-msgstr "请输入关键字"
+msgstr "输入您的令牌"
 
 #: auth_2fa.php:144 auth_2fa.php:147
 msgid "Token"
-msgstr ""
+msgstr "令牌"
 
 #: auth_2fa.php:159
-#, fuzzy
 msgid "Verify"
-msgstr "全部验证"
+msgstr "验证"
 
 #: auth_changepassword.php:135
 msgid "You cannot use a previously entered password!"
@@ -886,11 +882,11 @@ msgstr "您的新密码不匹配,请重新输入."
 
 #: auth_changepassword.php:151
 msgid "Your current password is not correct. Please try again."
-msgstr "您当前的密码不正确. 请再试一次."
+msgstr "您当前的密码不正确. 请重试."
 
 #: auth_changepassword.php:159
 msgid "Your new password cannot be the same as the old password. Please try again."
-msgstr "您的新密码不能与旧密码相同. 请再试一次."
+msgstr "您的新密码不能与旧密码相同. 请重试."
 
 #: auth_changepassword.php:301
 msgid "Forced password change"
@@ -924,14 +920,13 @@ msgstr "最近 %d 次使用过的密码无法重复使用"
 
 #: auth_changepassword.php:380
 msgid "There are problems with the Change Password page.  Contact your Cacti administrator right away."
-msgstr ""
+msgstr "'更改密码' 页面存在问题。立即联系您的Cacti管理员"
 
 #: auth_changepassword.php:387
 msgid "Please enter your current password and your new<br>Cacti password."
 msgstr "请输入您当前的密码和新的<br>Cacti 密码."
 
 #: auth_changepassword.php:389
-#, fuzzy
 msgid "Please enter your new Cacti password."
 msgstr "请输入您的Cacti新密码."
 
@@ -954,7 +949,6 @@ msgid "New password"
 msgstr "新密码"
 
 #: auth_changepassword.php:416
-#, fuzzy
 msgid "Confirm password"
 msgstr "确认新密码"
 
@@ -971,34 +965,30 @@ msgid "Return"
 msgstr "返回"
 
 #: auth_login.php:74
-#, fuzzy
 msgid "Cacti no longer supports No Authentication mode. Please contact your System Administrator."
-msgstr "访问被拒绝,请联系Cacti 管理员."
+msgstr "Cacti不再支持无身份验证模式,请联系您的系统管理员."
 
 #: auth_login.php:104
-#, fuzzy
 msgid "Unable to determine user Login Realm or Domain. Please contact your System Administrator."
-msgstr "访问被拒绝,请联系Cacti 管理员."
+msgstr "无法确定用户登录的安全域,请联系您的系统管理员."
 
 #: auth_login.php:134
-#, fuzzy
 msgid "User was Authenticated, but the Template Account is disabled.  Using Guest Account"
-msgstr "用户已通过身份验证，但模板帐户已禁用。使用访客帐户"
+msgstr "用户已通过身份验证,但模板帐户已禁用. 使用访客帐户"
 
 #: auth_login.php:141
 #, fuzzy, php-format
 msgid "Access Denied!  Guest user id %s does not exist.  Please contact your Administrator."
-msgstr "访问被拒绝,请联系Cacti 管理员."
+msgstr "访问被拒绝,来宾用户id %s 不存在. 请联系您的管理员."
 
 #: auth_login.php:180
-#, fuzzy
 msgid "Access Denied!  User account disabled."
 msgstr "拒绝访问,用户帐号被禁用."
 
 #: auth_login.php:192
 #, fuzzy
 msgid "You do not have access to any area of Cacti.  Contact your administrator."
-msgstr "如果您觉得这是一个报错,请联系Cacti 管理员."
+msgstr "您无权限访问Cacti的任何区域,请联系您的管理员."
 
 #: auth_login.php:291 lib/html_tree.php:218
 msgid "Login to Cacti"
@@ -1031,11 +1021,11 @@ msgstr "登录"
 
 #: auth_login.php:377
 msgid "Invalid User Name/Password Please Retype"
-msgstr "无效的用户名/密码请重新输入"
+msgstr "无效的用户名/密码,请重新输入"
 
 #: auth_login.php:381
 msgid "User Account Disabled"
-msgstr "用户被禁用"
+msgstr "用户账户被禁用"
 
 #: auth_profile.php:92 include/global_settings.php:39
 #: include/global_settings.php:1282 include/global_settings.php:1651
@@ -1099,7 +1089,6 @@ msgid "Clear User Settings"
 msgstr "清除用户设置"
 
 #: auth_profile.php:384
-#, fuzzy
 msgid "Return all User Settings to Default values."
 msgstr "将所有用户设置恢复为默认值."
 
@@ -1124,19 +1113,16 @@ msgid "User Settings"
 msgstr "用户设置"
 
 #: auth_profile.php:530
-#, fuzzy
 msgid "2FA Settings"
-msgstr "设置"
+msgstr "2FA 设置"
 
 #: auth_profile.php:554
-#, fuzzy
 msgid "2FA Enabled"
-msgstr "启用"
+msgstr "启用 2FA"
 
 #: auth_profile.php:555
-#, fuzzy
 msgid "Whether 2FA is enabled for this user."
-msgstr "登录用户名."
+msgstr "是否为此用户启用2FA."
 
 #: auth_profile.php:563
 msgid "2FA QA Code"
@@ -1152,16 +1138,15 @@ msgstr ""
 
 #: auth_profile.php:572
 msgid "The token generated by Google Authenticator, Auth or any compatible 2FA app"
-msgstr ""
+msgstr "由Google Authenticator、Auth或任何兼容2FA的应用程序生成的令牌"
 
 #: auth_profile.php:579 auth_profile.php:581
-#, fuzzy
 msgid "Verify App Token"
-msgstr "全部验证"
+msgstr "验证应用程序令牌"
 
 #: auth_profile.php:580
 msgid "Verify the 2FA App token entered above"
-msgstr ""
+msgstr "验证上面输入的2FA应用程序令牌"
 
 #: auth_profile.php:609 auth_profile.php:654 automation_graph_rules.php:863
 #: automation_graph_rules.php:1031 automation_networks.php:1427
@@ -1202,7 +1187,7 @@ msgstr "启用"
 
 #: auth_profile.php:611
 msgid "Enabling..."
-msgstr ""
+msgstr "启用中..."
 
 #: auth_profile.php:704
 msgid "Private Data Cleared"
@@ -1253,73 +1238,64 @@ msgid "Added manually through device automation interface."
 msgstr "通过设备自动化接口手动添加."
 
 #: automation_devices.php:125
-#, fuzzy, php-format
+#, php-format
 msgid "Device %s Added to Cacti"
-msgstr "添加到Cacti"
+msgstr "设备 %s 添加到Cacti"
 
 #: automation_devices.php:127
-#, fuzzy, php-format
+#, php-format
 msgid "Device %s Not Added to Cacti"
-msgstr "没有添加到Cacti"
+msgstr "设备 %s 没有添加到Cacti"
 
 #: automation_devices.php:137
-#, fuzzy
 msgid "Devices Removed from Cacti Automation database"
 msgstr "从 Cacti 自动化数据库中删除的设备"
 
 #: automation_devices.php:226
-#, fuzzy
 msgid "Click 'Continue' to Add the following Discovered Device to Cacti."
 msgstr "点击 '继续' 添加以下已发现的设备."
 
 #: automation_devices.php:227
-#, fuzzy
 msgid "Click 'Continue' to Add the following Discovered Devices to Cacti."
 msgstr "点击 '继续' 添加以下已发现的设备."
 
 #: automation_devices.php:228
-#, fuzzy
 msgid "Add Discovered Device"
-msgstr "已发现的设备"
+msgstr "添加已发现的设备"
 
 #: automation_devices.php:229
-#, fuzzy
 msgid "Add Discovered Devices"
-msgstr "已发现的设备"
+msgstr "添加已发现的设备"
 
 #: automation_devices.php:233
 #, fuzzy
 msgid "Poller:"
-msgstr "Poller"
+msgstr "Poller:"
 
 #: automation_devices.php:241 lib/html_tree.php:1033
 msgid "Device Template:"
 msgstr "设备模板:"
 
 #: automation_devices.php:249
-#, fuzzy
 msgid "Availability Method:"
 msgstr "可用性方法"
 
 #: automation_devices.php:258
-#, fuzzy
+
 msgid "Click 'Continue' to Remove the following Discovered Device."
-msgstr "点击 '继续' 添加以下已发现的设备."
+msgstr "点击 '继续' 删除以下发现的设备."
 
 #: automation_devices.php:259
-#, fuzzy
 msgid "Click 'Continue' to Remove the following Discovered Devices."
-msgstr "点击 '继续' 添加以下已发现的设备."
+msgstr "点击 '继续' 删除以下发现的设备."
 
 #: automation_devices.php:260
-#, fuzzy
 msgid "Remove Discovered Device"
-msgstr "已发现的设备"
+msgstr "删除已发现的设备"
 
 #: automation_devices.php:261
-#, fuzzy
 msgid "Remove Discovered Devices"
-msgstr "已发现的设备"
+msgstr "删除已发现的设备"
 
 #: automation_devices.php:288 automation_devices.php:678 host.php:1472
 #: host.php:1648 host.php:1829 include/global_arrays.php:1058
@@ -1333,9 +1309,8 @@ msgid "Devices"
 msgstr "设备"
 
 #: automation_devices.php:298
-#, fuzzy
 msgid "Imported Device"
-msgstr "导出设备"
+msgstr "导入的设备"
 
 #: automation_devices.php:303
 msgid "Device Name"
@@ -1412,19 +1387,16 @@ msgid "No Devices Found"
 msgstr "未找到设备"
 
 #: automation_devices.php:427 automation_devices.php:441
-#, fuzzy
 msgid "Removed from Cacti"
-msgstr "从组中删除"
+msgstr "从Cacti中删除"
 
 #: automation_devices.php:432
-#, fuzzy
 msgid "Not In Cacti"
-msgstr "关于Cacti"
+msgstr "不在Cacti"
 
 #: automation_devices.php:446
-#, fuzzy
 msgid "Invalid Network"
-msgstr "网络"
+msgstr "无效的网络"
 
 #: automation_devices.php:572
 msgid "Discovery Filters"
@@ -1475,7 +1447,7 @@ msgstr "N/A"
 #: graphs.php:59 host_templates.php:37 include/global_arrays.php:1730
 #: sites.php:29 vdef.php:30
 msgid "Duplicate"
-msgstr "重复"
+msgstr "复制"
 
 #: automation_graph_rules.php:30 automation_networks.php:35
 #: automation_tree_rules.php:30 data_sources.php:39 host.php:42
@@ -1494,24 +1466,20 @@ msgid "Disable"
 msgstr "禁用"
 
 #: automation_graph_rules.php:146
-#, fuzzy
 msgid "Import Graph Rules from Local File"
-msgstr "从本地文件导入模板"
+msgstr "从本地文件导入图形规则"
 
 #: automation_graph_rules.php:147
-#, fuzzy
 msgid "If the JSON file containing the Graph Rules data is located on your local machine, select it here."
-msgstr "如果包含模板数据的XML文件位于本地计算机上,请在此处选择它."
+msgstr "如果包含图形规则数据的JSON文件位于本地计算机上,请在此处选择它."
 
 #: automation_graph_rules.php:153
-#, fuzzy
 msgid "Import Graph Rules from Text"
-msgstr "从文本导入模板"
+msgstr "从文本导入图形规则"
 
 #: automation_graph_rules.php:154
-#, fuzzy
 msgid "If you have the JSON file containing the Graph Rules data as text, you can paste it into this box to import it."
-msgstr "如果您将包含模板数据的XML 文件作为文本,则可以将其粘贴到此框中以导入它."
+msgstr "如果您的JSON文件以文本形式包含图形规则数据，则可以将其粘贴到此框中进行导入."
 
 #: automation_graph_rules.php:166 automation_networks.php:143
 #: automation_snmp.php:179 automation_templates.php:206
@@ -1520,14 +1488,12 @@ msgid "Import Results"
 msgstr "导入结果"
 
 #: automation_graph_rules.php:168
-#, fuzzy
 msgid "Cacti has Imported the following Graph Rules"
-msgstr "Cacti 导入了以下条目:"
+msgstr "Cacti 导入了以下图形规则"
 
 #: automation_graph_rules.php:179 automation_graph_rules.php:193
-#, fuzzy
 msgid "Import Graph Rules"
-msgstr "画图规则"
+msgstr "导入图形规则"
 
 #: automation_graph_rules.php:193 automation_graph_rules.php:885
 #: automation_networks.php:170 automation_networks.php:1574
@@ -1544,7 +1510,7 @@ msgstr "导入"
 #: automation_snmp.php:238 automation_templates.php:261
 #: automation_tree_rules.php:221
 msgid "NOTE:"
-msgstr ""
+msgstr "注意:"
 
 #: automation_graph_rules.php:228 automation_graph_rules.php:235
 #: automation_networks.php:201 automation_networks.php:208
@@ -1554,47 +1520,39 @@ msgstr ""
 #: lib/installer.php:2179 lib/installer.php:2340 lib/installer.php:2345
 #: lib/installer.php:4063
 msgid "ERROR:"
-msgstr "ERROR:"
+msgstr "错误:"
 
 #: automation_graph_rules.php:434
-#, fuzzy
 msgid "Click 'Continue' to Delete the following Graph Rule."
-msgstr "点击 '继续' 删除以下规则."
+msgstr "点击 '继续' 删除以下图形规则."
 
 #: automation_graph_rules.php:435
-#, fuzzy
 msgid "Click 'Continue' to Delete following Graph Rules."
-msgstr "点击 '继续' 删除以下规则."
+msgstr "点击 '继续' 删除以下图形规则."
 
 #: automation_graph_rules.php:436
-#, fuzzy
 msgid "Delete Graph Rule"
-msgstr "创建图规则"
+msgstr "删除图形规则"
 
 #: automation_graph_rules.php:437
-#, fuzzy
 msgid "Delete Graph Rules"
-msgstr "创建图规则"
+msgstr "删除图形规则"
 
 #: automation_graph_rules.php:440
-#, fuzzy
 msgid "Click 'Continue' to Enable the following Graph Rule."
-msgstr "点击'继续'以启用以下规则."
+msgstr "点击'继续'以启用以下图形规则."
 
 #: automation_graph_rules.php:441
-#, fuzzy
 msgid "Click 'Continue' to Enable following Graph Rules."
-msgstr "点击'继续'以启用以下规则."
+msgstr "点击'继续'以启用以下图形规则."
 
 #: automation_graph_rules.php:442
-#, fuzzy
 msgid "Enable Graph Rule"
-msgstr "启用规则"
+msgstr "启用图形规则"
 
 #: automation_graph_rules.php:443
-#, fuzzy
 msgid "Enable Graph Rules"
-msgstr "画图规则"
+msgstr "启用图形规则"
 
 #: automation_graph_rules.php:446
 #, fuzzy
@@ -1602,59 +1560,48 @@ msgid "Click 'Continue' to Disable the following Graph Rule."
 msgstr "点击 '继续' 以禁用以下规则."
 
 #: automation_graph_rules.php:447
-#, fuzzy
 msgid "Click 'Continue' to Disable following Graph Rules."
-msgstr "点击 '继续' 以禁用以下规则."
+msgstr "点击 '继续' 以禁用以下图形规则."
 
 #: automation_graph_rules.php:448
-#, fuzzy
 msgid "Disable Graph Rule"
-msgstr "创建图规则"
+msgstr "禁用图形规则"
 
 #: automation_graph_rules.php:449
-#, fuzzy
 msgid "Disable Graph Rules"
-msgstr "画图规则"
+msgstr "禁用图形规则"
 
 #: automation_graph_rules.php:452
-#, fuzzy
 msgid "Click 'Continue' to Export the following Graph Rule."
-msgstr "点击 '继续' 删除以下规则."
+msgstr "点击 '继续' 导出以下图形规则."
 
 #: automation_graph_rules.php:453
-#, fuzzy
 msgid "Click 'Continue' to Export following Graph Rules."
-msgstr "点击'继续'以启用以下规则."
+msgstr "点击'继续'导出以下图形规则."
 
 #: automation_graph_rules.php:454
-#, fuzzy
 msgid "Export Graph Rule"
-msgstr "创建图规则"
+msgstr "导出图形规则"
 
 #: automation_graph_rules.php:455
-#, fuzzy
 msgid "Export Graph Rules"
-msgstr "画图规则"
+msgstr "导出图形规则"
 
 #: automation_graph_rules.php:458
-#, fuzzy
 msgid "Click 'Continue' to Duplicate the following Graph Rule."
-msgstr "点击 '继续' 删除下面的树."
+msgstr "点击 '继续' 复制以下图形规则."
 
 #: automation_graph_rules.php:459
-#, fuzzy
 msgid "Click 'Continue' to Duplicate following Graph Rules."
-msgstr "点击 '继续' 删除下面的树."
+msgstr "点击 '继续' 复制以下图形规则."
 
 #: automation_graph_rules.php:460
-#, fuzzy
 msgid "Duplicate Graph Rule"
-msgstr "重复图"
+msgstr "复制图形规则"
 
 #: automation_graph_rules.php:461
-#, fuzzy
 msgid "Duplicate Graph Rules"
-msgstr "重复图"
+msgstr "复制图形规则"
 
 #: automation_graph_rules.php:465 automation_tree_rules.php:463 cdef.php:275
 #: color_templates.php:332 data_source_profiles.php:313 data_templates.php:474
@@ -1671,9 +1618,8 @@ msgstr "规则选择 [编辑: %s]"
 #: automation_graph_rules.php:651 automation_graph_rules.php:666
 #: automation_tree_rules.php:687 automation_tree_rules.php:692
 #: automation_tree_rules.php:702
-#, fuzzy
 msgid "Rule"
-msgstr "规则名称"
+msgstr "规则"
 
 #: automation_graph_rules.php:652 automation_tree_rules.php:688
 #: lib/api_automation.php:30
@@ -1699,15 +1645,14 @@ msgstr "图形创建标准"
 
 #: automation_graph_rules.php:745 automation_graph_rules.php:754
 #: automation_tree_rules.php:775 automation_tree_rules.php:784
-#, fuzzy
 msgid "SQL Debug Output"
-msgstr "调试输出宽度"
+msgstr "SQL调试输出"
 
 #: automation_graph_rules.php:820 automation_graph_rules.php:867
 #: automation_graph_rules.php:980 include/global_arrays.php:1081
 #: include/global_arrays.php:2887
 msgid "Graph Rules"
-msgstr "画图规则"
+msgstr "图形规则"
 
 #: automation_graph_rules.php:835 automation_graph_rules.php:1002
 #: graphs.php:2693 include/global_arrays.php:1443
@@ -1722,11 +1667,11 @@ msgstr "规则名称"
 
 #: automation_graph_rules.php:993
 msgid "The name of this rule."
-msgstr "这个规则的名字."
+msgstr "这个规则的名称."
 
 #: automation_graph_rules.php:999
 msgid "The internal database ID for this rule.  Useful in performing debugging and automation."
-msgstr "此规则的内部数据库标识. 用于执行调试和自动化."
+msgstr "此规则的内部数据库ID. 用于执行调试和自动化."
 
 #: automation_graph_rules.php:1007 include/global_form.php:1863
 #: include/global_form.php:1949 include/global_form.php:2054
@@ -1736,12 +1681,11 @@ msgstr "图形类型"
 
 #: automation_graph_rules.php:1037
 msgid "No Graph Rules Found"
-msgstr "未找到画图规则"
+msgstr "未找到图形规则"
 
 #: automation_networks.php:33
-#, fuzzy
 msgid "Change Network Settings"
-msgstr "更改设置"
+msgstr "更改网络设置"
 
 #: automation_networks.php:37
 msgid "Discover Now"
@@ -1773,24 +1717,20 @@ msgid "Monthly on Day"
 msgstr "每月的某一天"
 
 #: automation_networks.php:123
-#, fuzzy
 msgid "Import Network Discovery Rule from Local File"
-msgstr "从本地文件导入颜色"
+msgstr "从本地文件导入网络发现规则"
 
 #: automation_networks.php:124
-#, fuzzy
 msgid "If the JSON file containing the Network Discovery Rule data is located on your local machine, select it here."
-msgstr "如果包含模板数据的XML文件位于本地计算机上,请在此处选择它."
+msgstr "如果包含网络发现规则数据的JSON文件位于本地计算机上，请在此处选择它."
 
 #: automation_networks.php:130
-#, fuzzy
 msgid "Import Network Discovery Rule from Text"
-msgstr "网络发现范围[新建]"
+msgstr "从文本导入网络发现规则"
 
 #: automation_networks.php:131
-#, fuzzy
 msgid "If you have the JSON file containing the Network Discovery Rule data as text, you can paste it into this box to import it."
-msgstr "如果您将包含模板数据的XML 文件作为文本,则可以将其粘贴到此框中以导入它."
+msgstr "如果您的JSON文件以文本形式包含网络发现规则数据，则可以将其粘贴到此框中进行导入."
 
 #: automation_networks.php:145 color.php:332
 msgid "Cacti has imported the following items:"
@@ -1798,24 +1738,23 @@ msgstr "Cacti 导入了以下条目:"
 
 #: automation_networks.php:156 automation_networks.php:170
 #: automation_templates.php:233
-#, fuzzy
 msgid "Import Network Discovery Rule"
-msgstr "新的网络发现范围"
+msgstr "导入网络发现规则"
 
 #: automation_networks.php:379
-#, fuzzy, php-format
+#, php-format
 msgid "Can Not Restart Discovery for Discovery in Progress for Network '%s'"
 msgstr "无法为网络 %s 正在进行的发现重启发现"
 
 #: automation_networks.php:383
-#, fuzzy, php-format
+#, php-format
 msgid "Can Not Perform Discovery for Disabled Network '%s'"
 msgstr "无法为禁用的网络 %s 执行发现"
 
 #: automation_networks.php:452
 #, php-format
 msgid "ERROR: You must specify the day of the week.  Disabling Network %s!."
-msgstr "ERROR: 您必须指定工作日. 禁用网络 %s!."
+msgstr "错误: 您必须指定工作日. 禁用网络 %s!."
 
 #: automation_networks.php:458
 #, php-format
@@ -1902,10 +1841,9 @@ msgstr "发现网络"
 
 #: automation_networks.php:697
 msgid "Perform a Dry Run.  Do not add Devices"
-msgstr ""
+msgstr "执行模拟运行. 不要添加设备"
 
 #: automation_networks.php:702
-#, fuzzy
 msgid "Enable Debug Logging"
 msgstr "启用Debug插件"
 
@@ -1922,39 +1860,32 @@ msgid "Click 'Continue' to Export the following Network."
 msgstr "点击 '继续' 导出以下网络."
 
 #: automation_networks.php:713
-#, fuzzy
 msgid "Click 'Continue' to Export the following Networks."
-msgstr "点击 '继续' 发现以下网络."
+msgstr "点击 '继续' 导出以下网络."
 
 #: automation_networks.php:714
-#, fuzzy
 msgid "Export Network"
-msgstr "网络"
+msgstr "导出网络"
 
 #: automation_networks.php:715
-#, fuzzy
 msgid "Export Networks"
 msgstr "导出网络"
 
 #: automation_networks.php:718
-#, fuzzy
 msgid "Click 'Continue' to Duplicate the following Network."
-msgstr "点击 '继续' 删除下面的树."
+msgstr "点击 '继续' 复制下面的网络."
 
 #: automation_networks.php:719
-#, fuzzy
 msgid "Click 'Continue' to Duplicate the following Networks."
-msgstr "点击 '继续' 删除下面的树."
+msgstr "点击 '继续' 复制下面的网络."
 
 #: automation_networks.php:720
-#, fuzzy
 msgid "Duplicate Network"
-msgstr "重复站点"
+msgstr "复制网络"
 
 #: automation_networks.php:721
-#, fuzzy
 msgid "Duplicate Networks"
-msgstr "重复站点"
+msgstr "复制网络"
 
 #: automation_networks.php:724
 msgid "Click 'Continue' to Change Network options for the following Network.  Check the checkboxes to indicate that this setting should be changed."
@@ -1965,12 +1896,10 @@ msgid "Click 'Continue' to Change Network options for the following Networks.  C
 msgstr ""
 
 #: automation_networks.php:726
-#, fuzzy
 msgid "Change Network"
 msgstr "更改密码"
 
 #: automation_networks.php:727
-#, fuzzy
 msgid "Change Networks"
 msgstr "网络"
 
@@ -2005,11 +1934,11 @@ msgstr "名称"
 
 #: automation_networks.php:758
 msgid "Give this Network a meaningful name."
-msgstr "给这个网络取个有意义的名字."
+msgstr "给这个网络取个有意义的名称."
 
 #: automation_networks.php:761
 msgid "New Network Discovery Range"
-msgstr "新的网络发现范围"
+msgstr "新网络的发现范围"
 
 #: automation_networks.php:765 automation_networks.php:1367 host.php:1505
 msgid "Data Collector"
@@ -2025,7 +1954,7 @@ msgstr "相关站点"
 
 #: automation_networks.php:774
 msgid "Choose the Cacti Site that you wish to associate discovered Devices with."
-msgstr "选择您想要将已发现的设备与之关联的Cact 站点."
+msgstr "选择您想要将已发现的设备与之关联的Cacti 站点."
 
 #: automation_networks.php:782
 msgid "Subnet Range"
@@ -2036,9 +1965,8 @@ msgid "Enter valid Network Ranges separated by commas.  You may use an IP addres
 msgstr "请输入以逗号分隔的有效网络范围. 您可以使用IP地址,网络范围(比如 192.168.1.0/24或192.168.1.0/255.255.255.0),或使用通配符(比如 192.168.*.*)"
 
 #: automation_networks.php:792
-#, fuzzy
 msgid "IP Addresses to Ignore"
-msgstr "IP 地址"
+msgstr "要忽略的IP地址"
 
 #: automation_networks.php:793
 msgid "Enter valid comma separated list command of IP Addresses from this range to ignore."
@@ -2066,7 +1994,7 @@ msgstr "用于DNS 解析的备用DNS服务器列表,用空格分隔. 如果为�
 
 #: automation_networks.php:812
 msgid "Enter IPs or FQDNs of DNS Servers"
-msgstr "请输入DNS 服务器的IP 或FQDN"
+msgstr "请输入DNS服务器的IP 或FQDN"
 
 #: automation_networks.php:816
 msgid "Discovery Threads"
@@ -2189,14 +2117,12 @@ msgid "For any newly discovered Devices that are reachable using SNMP and who ma
 msgstr "对于任何可以使用SNMP 访问且匹配设备规则的新发现设备,请将其添加到Cacti."
 
 #: automation_networks.php:874
-#, fuzzy
 msgid "Allow same sysName on different hosts"
 msgstr "允许不同的主机拥有相同的主机名"
 
 #: automation_networks.php:875
-#, fuzzy
 msgid "When discovering devices, allow duplicate sysnames to be added on different hosts"
-msgstr "发现设备时,允许在不同主机上添加重复的系统名称"
+msgstr "发现设备时,允许在不同主机上添加相同的系统名称"
 
 #: automation_networks.php:880
 msgid "Rerun Data Queries"
@@ -2208,7 +2134,7 @@ msgstr "如果找到先前添加到Cacti 的设备,请重新运行其数据查�
 
 #: automation_networks.php:886
 msgid "Discovery Timing"
-msgstr "发现耗时"
+msgstr "发现周期"
 
 #: automation_networks.php:891
 msgid "Schedule Type"
@@ -2228,11 +2154,11 @@ msgstr "这个网络发现项目什么时候开始?"
 
 #: automation_networks.php:908
 msgid "Rerun Every"
-msgstr "多久重新运行"
+msgstr "重新运行间隔"
 
 #: automation_networks.php:909
 msgid "Rerun discovery for this Network Range every X."
-msgstr "每X 重新运行此网络范围的发现."
+msgstr "每隔 X 重新运行此网络范围的发现."
 
 #: automation_networks.php:924
 msgid "Days of Week"
@@ -2378,21 +2304,18 @@ msgid "Notification Enabled"
 msgstr "启用通知"
 
 #: automation_networks.php:1004
-#, fuzzy
 msgid "If checked, when the Automation Network is scanned, a report will be sent to the Notification Email account.."
-msgstr "如果选中,则扫描自动化网络时,报告将发送到通知电子邮件帐户."
+msgstr "如果选中,则扫描自动化网络时,将向通知电子邮件帐户发送报告."
 
 #: automation_networks.php:1010
 msgid "Notification Email"
 msgstr "通知电子邮件"
 
 #: automation_networks.php:1011
-#, fuzzy
 msgid "The Email account to be used to send the Notification Email to."
 msgstr "用于向其发送通知电子邮件的电子邮件帐户."
 
 #: automation_networks.php:1018
-#, fuzzy
 msgid "Notification From Name"
 msgstr "自动通知的发件人"
 
@@ -2519,7 +2442,7 @@ msgstr "网络"
 
 #: automation_networks.php:1362
 msgid "Network Name"
-msgstr "网络名字"
+msgstr "网络名称"
 
 #: automation_networks.php:1372
 msgid "Schedule"
@@ -5207,7 +5130,7 @@ msgstr "选定的数据模板"
 #: data_sources.php:937
 #, fuzzy
 msgid "The name given to this data template.  Please note that you may only change Graph Templates to a 100%$ compatible Graph Template, which means that it includes identical Data Sources."
-msgstr "给这个数据模板的名字。 请注意，您只能将图形模板更改为百会之百兼容的图形模板，这意味着它包含相同的数据源。"
+msgstr "给这个数据模板的名称。 请注意，您只能将图形模板更改为百会之百兼容的图形模板，这意味着它包含相同的数据源。"
 
 #: data_sources.php:944 graph_view.php:773 graphs.php:2257
 #: include/global_arrays.php:1018 include/global_arrays.php:1071
@@ -5502,7 +5425,7 @@ msgstr "数据模板名称"
 
 #: data_templates.php:1202
 msgid "The name of this Data Template."
-msgstr "这个数据模板的名字."
+msgstr "这个数据模板的名称."
 
 #: data_templates.php:1208
 msgid "The internal database ID for this Data Template.  Useful when performing automation or debugging."
@@ -9784,7 +9707,7 @@ msgstr "在放弃之前通过SNMP 读取字符串连接设备的最大次数."
 
 #: include/global_form.php:216
 msgid "A useful name for this Data Storage and Polling Profile."
-msgstr "这个数据存储和采集器配置文件的一个有用的名字."
+msgstr "这个数据存储和采集器配置文件的一个有用的名称."
 
 #: include/global_form.php:220
 msgid "New Profile"
@@ -10478,7 +10401,7 @@ msgstr "如果您希望在创建数据源之前对其进行测试，请选中此
 
 #: include/global_form.php:1151
 msgid "Enter a name for this graph item input, make sure it is something you recognize."
-msgstr "请为图形项目输入一个名字,确保您可以识别它."
+msgstr "请为图形项目输入一个名称,确保您可以识别它."
 
 #: include/global_form.php:1159
 msgid "Enter a description for this graph item input to describe what this input is used for."
@@ -10584,7 +10507,7 @@ msgstr "用于将Cacti 数据链接到外部监控系统的外部ID."
 
 #: include/global_form.php:1359
 msgid "A useful name for this host template."
-msgstr "主机模板的一个有用的名字."
+msgstr "主机模板的一个有用的名称."
 
 #: include/global_form.php:1366
 #, fuzzy
@@ -10594,7 +10517,7 @@ msgstr "经典"
 #: include/global_form.php:1367
 #, fuzzy
 msgid "A suitable Class for the Device Template."
-msgstr "模板的一个有用的名字."
+msgstr "模板的一个有用的名称."
 
 #: include/global_form.php:1387
 msgid "A name for this data query."
@@ -10949,7 +10872,7 @@ msgstr "一个不错的颜色"
 
 #: include/global_form.php:2133
 msgid "A useful name for this Template."
-msgstr "模板的一个有用的名字."
+msgstr "模板的一个有用的名称."
 
 #: include/global_form.php:2147 include/global_form.php:2189
 #: lib/api_automation.php:1422 lib/api_automation.php:1515
@@ -10984,7 +10907,7 @@ msgstr "序列."
 
 #: include/global_form.php:2231 include/global_form.php:2276
 msgid "A useful name for this Rule."
-msgstr "规则的一个有用的名字."
+msgstr "规则的一个有用的名称."
 
 #: include/global_form.php:2239
 msgid "Choose a Data Query to apply to this rule."
@@ -16354,7 +16277,7 @@ msgstr "新报告"
 
 #: lib/html_reports.php:38
 msgid "Give this Report a descriptive Name"
-msgstr "给报告起一个具有描述性的名字"
+msgstr "给报告起一个具有描述性的名称"
 
 #: lib/html_reports.php:43 lib/html_reports.php:540
 msgid "Enable Report"
@@ -19481,7 +19404,7 @@ msgstr "插件名称"
 
 #: plugins.php:595
 msgid "The name for this Plugin.  The name is controlled by the directory it resides in."
-msgstr "这个插件的名字. 该名称由它所在的目录控制."
+msgstr "这个插件的名称. 该名称由它所在的目录控制."
 
 #: plugins.php:598
 msgid "Plugin Description"
@@ -21279,7 +21202,7 @@ msgstr "树名"
 
 #: tree.php:2213
 msgid "The name by which this Tree will be referred to as."
-msgstr "这棵树将被称为的名字."
+msgstr "这棵树将被称为的名称."
 
 #: tree.php:2219
 msgid "The internal database ID for this Tree.  Useful when performing automation or debugging."
