@@ -116,7 +116,7 @@ msgstr "转换为一般图形"
 
 #: aggregate_graphs.php:44 graphs.php:81 graphs.php:1822
 msgid "Place Graphs on Report"
-msgstr "在报表中放置图形"
+msgstr "在报告中放置图形"
 
 #: aggregate_graphs.php:45
 msgid "Migrate Aggregate to use a Template"
@@ -1837,84 +1837,68 @@ msgid "Update this Field"
 msgstr "更新这个字段"
 
 #: automation_networks.php:672
-#, fuzzy
 msgid "Click 'Continue' to Delete the following Network."
 msgstr "点击 '继续' 删除以下网络."
 
 #: automation_networks.php:673
-#, fuzzy
 msgid "Click 'Continue' to Delete the following Networks."
 msgstr "点击 '继续' 删除以下网络."
 
 #: automation_networks.php:674
-#, fuzzy
 msgid "Delete Network"
-msgstr "删除颜色"
+msgstr "删除网络"
 
 #: automation_networks.php:675
-#, fuzzy
 msgid "Delete Networks"
-msgstr "网络"
+msgstr "删除网络"
 
 #: automation_networks.php:678
-#, fuzzy
 msgid "Click 'Continue' to Disable the following Network."
 msgstr "点击 '继续' 以禁用以下网络."
 
 #: automation_networks.php:679
-#, fuzzy
 msgid "Click 'Continue' to Disable the following Networks."
 msgstr "点击 '继续' 以禁用以下网络."
 
 #: automation_networks.php:680
-#, fuzzy
 msgid "Disable Network"
-msgstr "禁用用户"
+msgstr "禁用网络"
 
 #: automation_networks.php:681
-#, fuzzy
 msgid "Disable Networks"
-msgstr "禁用用户"
+msgstr "禁用网络"
 
 #: automation_networks.php:684
-#, fuzzy
 msgid "Click 'Continue' to Enable the following Network."
 msgstr "点击 '继续' 以启用以下网络."
 
 #: automation_networks.php:685
-#, fuzzy
 msgid "Click 'Continue' to Enable the following Networks."
 msgstr "点击 '继续' 以启用以下网络."
 
 #: automation_networks.php:686
-#, fuzzy
 msgid "Enable Network"
-msgstr "启用报告"
+msgstr "启用网络"
 
 #: automation_networks.php:687
-#, fuzzy
 msgid "Enable Networks"
-msgstr "启用报告"
+msgstr "启用网络"
 
 #: automation_networks.php:690
-#, fuzzy
 msgid "Click 'Continue' to Discover the following Network."
 msgstr "点击 '继续' 发现以下网络."
 
 #: automation_networks.php:691
-#, fuzzy
 msgid "Click 'Continue' to Discover the following Networks."
 msgstr "点击 '继续' 发现以下网络."
 
 #: automation_networks.php:692
-#, fuzzy
 msgid "Discover Network"
-msgstr "立即发现"
+msgstr "发现网络"
 
 #: automation_networks.php:693
-#, fuzzy
 msgid "Discover Networks"
-msgstr "立即发现"
+msgstr "发现网络"
 
 #: automation_networks.php:697
 msgid "Perform a Dry Run.  Do not add Devices"
@@ -1923,21 +1907,19 @@ msgstr ""
 #: automation_networks.php:702
 #, fuzzy
 msgid "Enable Debug Logging"
-msgstr "启用插件"
+msgstr "启用Debug插件"
 
 #: automation_networks.php:708
 msgid "Click 'Continue' to cancel on going Network Discovery(s)."
 msgstr "点击 '继续' 以取消正在进行的网络发现."
 
 #: automation_networks.php:709
-#, fuzzy
 msgid "Cancel Network Discovery"
-msgstr "取消发现"
+msgstr "取消网络发现"
 
 #: automation_networks.php:712
-#, fuzzy
 msgid "Click 'Continue' to Export the following Network."
-msgstr "点击 '继续' 发现以下网络."
+msgstr "点击 '继续' 导出以下网络."
 
 #: automation_networks.php:713
 #, fuzzy
@@ -1952,7 +1934,7 @@ msgstr "网络"
 #: automation_networks.php:715
 #, fuzzy
 msgid "Export Networks"
-msgstr "导出颜色"
+msgstr "导出网络"
 
 #: automation_networks.php:718
 #, fuzzy
@@ -4284,11 +4266,11 @@ msgstr "无设备"
 #: data_debug.php:1080
 #, fuzzy
 msgid "Delete All Checks"
-msgstr "删除检查"
+msgstr "删除全部检查"
 
 #: data_debug.php:1081
 msgid "Run All"
-msgstr ""
+msgstr "运行全部"
 
 #: data_debug.php:1081
 msgid "Run checks on currently filtered Data Sources and preserve other results"
@@ -4318,47 +4300,38 @@ msgid "Debugging"
 msgstr "调试"
 
 #: data_input.php:248
-#, fuzzy
 msgid "Click 'Continue' to Delete the following Data Input Method."
 msgstr "点击 '继续' 删除以下数据输入方法"
 
 #: data_input.php:249
-#, fuzzy
 msgid "Click 'Continue' to Delete following Data Input Methods."
 msgstr "点击 '继续' 删除以下数据输入方法"
 
 #: data_input.php:250
-#, fuzzy
 msgid "Delete Data Input Method"
 msgstr "删除数据输入法"
 
 #: data_input.php:251
-#, fuzzy
 msgid "Delete Data Input Methods"
 msgstr "删除数据输入法"
 
 #: data_input.php:254
-#, fuzzy
 msgid "Click 'Continue' to Duplicate the following Data Input Method."
 msgstr "点击 '继续' 删除以下数据输入方法"
 
 #: data_input.php:255
-#, fuzzy
 msgid "Click 'Continue' to Duplicate following Data Input Methods."
 msgstr "点击 '继续' 删除以下数据输入方法"
 
 #: data_input.php:256
-#, fuzzy
 msgid "Duplicate Data Input Method"
-msgstr "删除数据输入法"
+msgstr "复制数据输入法"
 
 #: data_input.php:257
-#, fuzzy
 msgid "Duplicate Data Input Methods"
-msgstr "删除数据输入法"
+msgstr "复制数据输入法"
 
 #: data_input.php:261
-#, fuzzy
 msgid "Input Name:"
 msgstr "数据输入名称"
 
@@ -4408,7 +4381,6 @@ msgid "Data Input Method [edit: %s]"
 msgstr "数据输入方法 [编辑: %s]"
 
 #: data_input.php:498
-#, fuzzy
 msgid "Data Input Method [new]"
 msgstr "数据输入方法[新建]"
 
@@ -4421,17 +4393,14 @@ msgid "Script Query"
 msgstr "脚本查询"
 
 #: data_input.php:524 include/global_arrays.php:520
-#, fuzzy
 msgid "Script Server Query"
-msgstr "脚本服务器"
+msgstr "脚本服务器查询"
 
 #: data_input.php:533
-#, fuzzy
 msgid "White List Verification Succeeded."
 msgstr "白名单验证成功."
 
 #: data_input.php:535
-#, fuzzy
 msgid "White List Verification Failed.  Run CLI script input_whitelist.php to correct."
 msgstr "白名单验证失败.运行CLI脚本input_whitelist.php进行更正."
 
@@ -8339,9 +8308,8 @@ msgid "Import Templates"
 msgstr "导入模板"
 
 #: include/global_arrays.php:1094 include/global_arrays.php:2749
-#, fuzzy
 msgid "Import Packages"
-msgstr "导入模板"
+msgstr "导入模板包"
 
 #: include/global_arrays.php:1095 include/global_arrays.php:1320
 #: include/global_arrays.php:2731 templates_export.php:157
@@ -8444,7 +8412,6 @@ msgid "Cacti Related"
 msgstr "Cacti 报告"
 
 #: include/global_arrays.php:1160
-#, fuzzy
 msgid "Database Related"
 msgstr "数据库状态"
 
@@ -11350,11 +11317,11 @@ msgstr "Cacti 如何处理事件日志."
 
 #: include/global_settings.php:328
 msgid "Generic Log Level"
-msgstr "基本日志级别"
+msgstr "通用日志级别"
 
 #: include/global_settings.php:329
 msgid "What level of detail do you want sent to the log file.  WARNING: Leaving in any other status than NONE or LOW can exhaust your disk space rapidly."
-msgstr "日志文件的详细级别. WARNING: 如果设置为 'NONE' 或 'LOW' 之外的状态,可能会迅速耗尽磁盘空间."
+msgstr "日志文件的详细级别. 警告: 如果设置为 'NONE' 或 'LOW' 之外的状态,可能会迅速耗尽磁盘空间."
 
 #: include/global_settings.php:335
 #, fuzzy
@@ -11363,26 +11330,23 @@ msgstr "展开设备"
 
 #: include/global_settings.php:336
 msgid "What level of expansion do you want on the log file? Increase expansion can slow search results"
-msgstr ""
+msgstr "您希望对日志文件进行何种级别的扩展？增加扩展可能会减慢搜索结果"
 
 #: include/global_settings.php:342
 msgid "Log Input Validation Issues"
 msgstr "日志输入验证问题"
 
 #: include/global_settings.php:343
-#, fuzzy
 msgid "Record when request fields are accessed without going through proper input validation"
-msgstr "记录何时访问请求字段而不进行适当的输入验证"
+msgstr "记录在未经过适当输入验证的情况下访问请求字段的时间"
 
 #: include/global_settings.php:349
-#, fuzzy
 msgid "Data Source Tracing"
-msgstr "数据源使用"
+msgstr "数据源跟踪"
 
 #: include/global_settings.php:350
-#, fuzzy
 msgid "A developer only option to trace the creation of Data Sources mainly around checks for uniqueness"
-msgstr "仅限开发人员选项，用于跟踪数据源的创建，主要围绕检查唯一性"
+msgstr "仅限开发人员使用，主要围绕唯一性检查来跟踪数据源的创建"
 
 #: include/global_settings.php:355
 msgid "Log Ignored General Errors"
@@ -11398,7 +11362,7 @@ msgstr "选择文件调试"
 
 #: include/global_settings.php:362
 msgid "Select which files you wish to place in Debug mode regardless of the Generic Log Level setting.  Any files selected will be treated as they are in Debug mode."
-msgstr "无论通用日志级别设置如何,请选择您希望在调试模式下放置哪些文件. 任何选中的文件将被视为处于调试模式."
+msgstr "无论'通用日志级别'设置如何,请选择您希望在调试模式下放置哪些文件. 任何选中的文件将被视为处于调试模式."
 
 #: include/global_settings.php:368
 msgid "Selective Plugin Debug"
@@ -11406,7 +11370,7 @@ msgstr "选择插件调试"
 
 #: include/global_settings.php:369
 msgid "Select which Plugins you wish to place in Debug mode regardless of the Generic Log Level setting.  Any files used by this plugin will be treated as they are in Debug mode."
-msgstr "无论 '基本日志级别' 设置如何, 选择希望在调试模式下放置哪些插件. 这个插件使用的任何文件将被视为处于调试模式."
+msgstr "无论'通用日志级别'设置如何, 请选择希望在调试模式下放置哪些插件. 这个插件使用的任何文件将被视为处于调试模式."
 
 #: include/global_settings.php:375
 msgid "Selective Device Debug"
@@ -11417,14 +11381,12 @@ msgid "A comma delimited list of Device ID's that you wish to be in Debug mode d
 msgstr "在数据采集期间,您希望处于调试模式的设备ID 列表(以逗号分隔). 此调试级别仅在Cacti 采集过程中适用."
 
 #: include/global_settings.php:383
-#, fuzzy
 msgid "Syslog/Eventlog Item Selection"
-msgstr "系统日志/事件日志项目选择"
+msgstr "系统日志/事件日志项选择"
 
 #: include/global_settings.php:384
-#, fuzzy
 msgid "When using Syslog/Eventlog for logging, the Cacti log messages that will be forwarded to the Syslog/Eventlog."
-msgstr "使用Syslog/Eventlog 进行日志记录时,会将Cacti 日志消息转发到Syslog/Eventlog."
+msgstr "使用Syslog/Eventlog 进行日志记录时,会将Cacti日志消息转发到Syslog/Eventlog."
 
 #: include/global_settings.php:389
 msgid "Statistics"
@@ -11439,9 +11401,8 @@ msgid "Errors"
 msgstr "错误"
 
 #: include/global_settings.php:403
-#, fuzzy
 msgid "Internationalization (i18n)"
-msgstr "国际化 (i18n)"
+msgstr "国际化(i18n)"
 
 #: include/global_settings.php:408
 msgid "Language Support"
@@ -11468,23 +11429,20 @@ msgid "Allow to automatically determine the 'default' language of the user and p
 msgstr "允许自动确定用户的 '默认' 语言,如果Cacti支持该语言,则在登录时提供该语言. 如果禁用,默认语言将有效,直到用户选择另一种语言."
 
 #: include/global_settings.php:432
-#, fuzzy
 msgid "Preferred Language Processor"
 msgstr "首选语言处理器"
 
 #: include/global_settings.php:433
-#, fuzzy
 msgid "Cacti includes support for multiple alternate Language Translation Processors.  If none is selected Cacti will attempt to use the first one found."
-msgstr "Cacti 包括对多个备用语言翻译处理器的支持。默认使用 PHP 内置支持，但并非所有 Linux 变体都包含内置语言支持。如果未选中，Cacti 将选择找到的第一个。"
+msgstr "Cacti 包括对多个备用语言翻译处理器的支持。如果未选中，Cacti 将选择找到的第一个。"
 
 #: include/global_settings.php:439
-#, fuzzy
 msgid "Client TimeZone Support"
-msgstr "MySQL - 时区支持"
+msgstr "客户端时区支持"
 
 #: include/global_settings.php:440
 msgid "How should Cacti support Client Dates based upon the Client browsers timezone."
-msgstr ""
+msgstr "Cacti应该如何支持基于客户端浏览器时区的客户端日期"
 
 #: include/global_settings.php:449 include/global_settings.php:2736
 msgid "Date Display Format"
@@ -11507,13 +11465,12 @@ msgid "Other Settings"
 msgstr "其他设置"
 
 #: include/global_settings.php:468
-#, fuzzy
 msgid "Show only site specific locations"
-msgstr "在这里设置任何图形特定选项."
+msgstr "仅显示特定于站点的位置"
 
 #: include/global_settings.php:469
 msgid "Show only locations that are available at a devices selected site."
-msgstr ""
+msgstr "仅显示在设备所选站点上可用的位置"
 
 #: include/global_settings.php:474
 msgid "Has Graphs/Data Sources Checked"
@@ -11532,13 +11489,12 @@ msgid "The version of RRDtool that you have installed."
 msgstr "您已安装的RRDtool 版本."
 
 #: include/global_settings.php:487
-#, fuzzy
 msgid "Enable Gradient Support"
-msgstr "启用报告"
+msgstr "启用渐变支持"
 
 #: include/global_settings.php:488
 msgid "Enabled Gradient Support for AREA and STACK charts."
-msgstr ""
+msgstr "启用对 AREA 图和 STACK 图的渐变支持"
 
 #: include/global_settings.php:493
 msgid "Graph Permission Method"
@@ -11547,7 +11503,7 @@ msgstr "图形权限方法"
 #: include/global_settings.php:494
 #, fuzzy
 msgid "There are four methods for determining a User's Graph Permissions.  The first is 'Permissive'.  Under the 'Permissive' setting, a User only needs access to either the Graph, Device or Graph Template to gain access to the Graphs that apply to them.  Under 'Restrictive', the User must have access to the Graph, the Device, and the Graph Template to gain access to the Graph.  These first two methods have scalability problems for very large installs.  So, two additional options are available.  They are 'Device Based', which means if you have access to the Device, you get access to it's Graphs.  And lastly 'Graph Template Based', which means if you have access to the 'Graph Template' you get access to all Device Graphs of that Template."
-msgstr "有两种方法可以确定用户的图形权限. 首先是 '宽松'. 在 '宽松' 设置下,用户只需要访问 '图形', '设备' 或 '图形模板' 即可访问适用于其的图形. 在 '严格' 下,用户必须有权访问图形,设备和图形模板才能访问图形."
+msgstr "有四种方法可以确定用户的图形权限. 首先是 '宽松'. 在 '宽松' 设置下,用户只需要访问图形、设备或图形模板即可访问适用于它们的图形. 在 '严格' 下,用户必须有权访问图形、设备和图形模板才能访问图形."
 
 #: include/global_settings.php:498
 msgid "Permissive"
@@ -11580,20 +11536,19 @@ msgstr "高级"
 
 #: include/global_settings.php:515
 msgid "Show Form/Setting Help Inline"
-msgstr "在线显示表单/设置帮助"
+msgstr "内嵌显示表单/设置帮助"
 
 #: include/global_settings.php:516
 msgid "When checked, Form and Setting Help will be show inline.  Otherwise it will be presented when hovering over the help button."
 msgstr "选中后,表格和设置帮助将内嵌显示. 否则,当鼠标悬停在帮助按钮上时,会显示它."
 
 #: include/global_settings.php:521
-#, fuzzy
 msgid "Local Page Help Only"
-msgstr "获取帮助"
+msgstr "仅获取本地页面帮助"
 
 #: include/global_settings.php:522
 msgid "By default Cacti page help is located at docs.cacti.net.  However, if your system does not have access to the Internet, you may download the documentation locally in HTML format and host it in the 'docs' location of you Cacti server.  If you choose only to leverage the local location for page help documentation, check this checkbox."
-msgstr ""
+msgstr "默认情况下，Cacti页面帮助信息位于docs.cactiv.net网站。但是，如果您的系统无法访问互联网，您可以下载HTML格式的文档到本地，并将其放在在您Cacti服务器的'docs'目录中。如果您选择仅利用本地位置获取页面帮助文档，请选中此复选框"
 
 #: include/global_settings.php:527
 msgid "Deletion Verification"
@@ -11604,37 +11559,32 @@ msgid "Prompt user before item deletion."
 msgstr "在删除项目之前提示用户."
 
 #: include/global_settings.php:533
-#, fuzzy
 msgid "Data Source Preservation Preset"
-msgstr "图形/数据源创建方法"
+msgstr "数据源保存预设"
 
 #: include/global_settings.php:534
-#, fuzzy
 msgid "When enabled, Cacti will set Radio Button to Delete related Data Sources of a Graph when removing Graphs.  Note: Cacti will not allow the removal of Data Sources if they are used in other Graphs."
 msgstr "启用后，Cacti将在删除图形时将单选按钮设置为删除图形的相关数据源。注意：如果其他图形中使用了数据源，则Cacti不允许删除数据源。"
 
 #: include/global_settings.php:539
-#, fuzzy
 msgid "Graphs Auto Unlock"
-msgstr "图匹配规则"
+msgstr "图形自动解锁"
 
 #: include/global_settings.php:540
-#, fuzzy
 msgid "When enabled, Cacti will not lock Graphs.  This allow a faster manual modification of Data Sources related to a Graph."
-msgstr "启用后，Cacti将不会锁定图表。这样可以更快地手动修改与图形相关的数据源。"
+msgstr "启用后，Cacti将不会锁定图形。这样可以更快地手动修改与图形相关的数据源。"
 
 #: include/global_settings.php:545
 msgid "Hide Cacti Dashboard"
 msgstr "隐藏Cacti 仪表板"
 
 #: include/global_settings.php:546
-#, fuzzy
 msgid "For use with Cacti's External Link Support.  Using this setting, you can hide the Cacti Dashboard, so you can display just your own page."
 msgstr "用于Cacti 的外部链接支持.使用此设置,您可以隐藏Cacti 仪表板,这样您就可以只显示自己的页面."
 
 #: include/global_settings.php:551
 msgid "Enable Drag-N-Drop"
-msgstr "开启拖放支持"
+msgstr "启用拖放支持"
 
 #: include/global_settings.php:552
 msgid "Some of Cacti's interfaces support Drag-N-Drop.  If checked this option will be enabled.  Note: For visually impaired user, this option may be disabled."
@@ -11653,9 +11603,8 @@ msgid "When checked, any attempts to access Cacti will be redirected to HTTPS to
 msgstr "选中后, Cacti 的所有访问都将被重定向到HTTPS 以确保高安全性."
 
 #: include/global_settings.php:569
-#, fuzzy
 msgid "Content-Security Allow Unsafe JavaScript eval() calls"
-msgstr "允许不安全的JavaScript eval（）调用"
+msgstr "允许不安全的JavaScript eval()调用"
 
 #: include/global_settings.php:570
 #, fuzzy
@@ -11663,9 +11612,8 @@ msgid "Certain Cacti plugins require the use of unsafe JavaScript eval() calls. 
 msgstr "某些Cacti插件需要使用不安全的JavaScript eval（）调用。如果选择此选项，则仙人掌中将允许它们。"
 
 #: include/global_settings.php:578
-#, fuzzy
 msgid "Content-Security Alternate Sources"
-msgstr "内容安全替代来源"
+msgstr "内容安全替代源"
 
 #: include/global_settings.php:579
 #, fuzzy
@@ -16778,7 +16726,7 @@ msgstr "一个Perl兼容的正则表达式(REGEXP),用于从树中选择要包�
 
 #: lib/html_reports.php:1079
 msgid "The Graph to use for this report item."
-msgstr "用于此报表项目的图形."
+msgstr "用于此报告项目的图形."
 
 #: lib/html_reports.php:1091
 #, fuzzy
@@ -18452,7 +18400,7 @@ msgstr "未找到要添加到报告中的图形"
 #: lib/reports.php:151
 #, fuzzy, php-format
 msgid "Device '%s' not added to Report as it already exists on report."
-msgstr "设备“%s”未添加到报告中，因为它已存在于报告中。"
+msgstr "设备 '%s' 未添加到报告中，因为它已存在于报告中。"
 
 #: lib/reports.php:625
 #, fuzzy, php-format
@@ -18496,12 +18444,12 @@ msgstr "图形对齐:"
 #: lib/reports.php:2011
 #, php-format
 msgid "Created Report Graph Item '<i>%s</i>'"
-msgstr "创建报表图项 '<i>%s</i>'"
+msgstr "创建报告图形项 '<i>%s</i>'"
 
 #: lib/reports.php:2013
 #, php-format
 msgid "Failed Adding Report Graph Item '<i>%s</i>' Already Exists"
-msgstr "添加已存在报表图形项目'<i>%s</i>'失败"
+msgstr "添加报告图形项目'<i>%s</i>'失败，已存在"
 
 #: lib/reports.php:2016
 #, php-format
