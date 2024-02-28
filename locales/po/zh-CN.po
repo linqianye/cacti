@@ -423,7 +423,7 @@ msgstr "未检查"
 #: aggregate_graphs.php:1219
 #, php-format
 msgid "Aggregate Graph %s"
-msgstr "综合图 '%s'"
+msgstr "聚合图 '%s'"
 
 #: aggregate_graphs.php:1244 aggregate_templates.php:407 graphs.php:1624
 #, fuzzy
@@ -438,7 +438,7 @@ msgstr "您可以将这些替换值用于聚合图中的前缀"
 #: aggregate_graphs.php:1403 aggregate_templates.php:527 graphs.php:1938
 #: lib/api_aggregate.php:1789
 msgid "Total"
-msgstr "一共"
+msgstr "共"
 
 #: aggregate_graphs.php:1408 aggregate_templates.php:531 graphs.php:1940
 msgid "All Items"
@@ -8362,11 +8362,11 @@ msgstr ""
 
 #: include/global_arrays.php:1166
 msgid "Licensing Related"
-msgstr ""
+msgstr "许可相关"
 
 #: include/global_arrays.php:1167
 msgid "Linux Related"
-msgstr ""
+msgstr "Linux相关"
 
 #: include/global_arrays.php:1168
 #, fuzzy
@@ -8376,34 +8376,34 @@ msgstr "负载均衡"
 #: include/global_arrays.php:1169
 #, fuzzy
 msgid "Network Switch"
-msgstr "网络过滤器"
+msgstr "网络交换机"
 
 #: include/global_arrays.php:1170
 #, fuzzy
 msgid "Network Router"
-msgstr "网络过滤器"
+msgstr "网络路由器"
 
 #: include/global_arrays.php:1171
 msgid "NAS/SAN Related"
-msgstr ""
+msgstr "NAS/SAN 相关"
 
 #: include/global_arrays.php:1172
 #, fuzzy
 msgid "Network Firewalls"
-msgstr "网络过滤器"
+msgstr "网络防火墙"
 
 #: include/global_arrays.php:1173
 msgid "Power Related PDUs/STS, etc."
-msgstr ""
+msgstr "PDUs/STS等电源相关"
 
 #: include/global_arrays.php:1174
 #, fuzzy
 msgid "Printer Related"
-msgstr "数据库状态"
+msgstr "打印机相关"
 
 #: include/global_arrays.php:1175
 msgid "Storage Related"
-msgstr ""
+msgstr "存储相关"
 
 #: include/global_arrays.php:1176
 #, fuzzy
@@ -8416,11 +8416,11 @@ msgstr ""
 
 #: include/global_arrays.php:1178
 msgid "Windows Related"
-msgstr ""
+msgstr "Web服务器相关"
 
 #: include/global_arrays.php:1179
 msgid "UPS Related"
-msgstr ""
+msgstr "UPS相关"
 
 #: include/global_arrays.php:1203
 msgid "All Lines"
@@ -8450,7 +8450,7 @@ msgstr "更新配置文件"
 
 #: include/global_arrays.php:1300
 msgid "Users/Groups"
-msgstr "用户/团体"
+msgstr "用户/组"
 
 #: include/global_arrays.php:1301
 msgid "Settings/Utilities"
@@ -8480,7 +8480,7 @@ msgstr "日志查看"
 #: include/global_arrays.php:1326
 #, fuzzy
 msgid "Reports Administration"
-msgstr "日志管理"
+msgstr "报告管理"
 
 #: include/global_arrays.php:1327
 msgid "Reports Creation"
@@ -8611,7 +8611,7 @@ msgstr "过去 %d 年"
 
 #: include/global_arrays.php:1520
 msgid "Day Shift"
-msgstr "上班时间"
+msgstr "白班"
 
 #: include/global_arrays.php:1521
 msgid "This Day"
@@ -8767,7 +8767,7 @@ msgstr "%d GBytes"
 #: include/global_arrays.php:1689 utilities.php:1623 utilities.php:1624
 #: utilities.php:1673
 msgid "Unlimited"
-msgstr "无限"
+msgstr "无限制"
 
 #: include/global_arrays.php:1696 include/global_settings.php:1469
 #: include/global_settings.php:1470 include/global_settings.php:1471
@@ -9301,7 +9301,7 @@ msgstr "[警告]"
 #: include/global_arrays.php:2074
 #, fuzzy
 msgid "[Restart]"
-msgstr "受限的"
+msgstr "[重启]"
 
 #: include/global_arrays.php:2075
 msgid "[Success]"
@@ -9466,7 +9466,7 @@ msgstr "(启动)"
 #: include/global_arrays.php:2725
 #, fuzzy
 msgid "Cacti Help"
-msgstr "Cacti 首页"
+msgstr "Cacti 帮助"
 
 #: include/global_arrays.php:2737
 msgid "Export Results"
@@ -9479,15 +9479,15 @@ msgstr "报告"
 
 #: include/global_arrays.php:2761 include/global_arrays.php:2791
 msgid "Report Add"
-msgstr "报告添加"
+msgstr "添加报告"
 
 #: include/global_arrays.php:2767 include/global_arrays.php:2797
 msgid "Report Delete"
-msgstr "报告删除"
+msgstr "删除报告"
 
 #: include/global_arrays.php:2773 include/global_arrays.php:2803
 msgid "Report Edit"
-msgstr "报告编辑"
+msgstr "编辑报告"
 
 #: include/global_arrays.php:2779 include/global_arrays.php:2809
 msgid "Report Edit Item"
@@ -10025,7 +10025,7 @@ msgstr "图形内图形区域的宽度(以像素为单位). 该区域不包括�
 
 #: include/global_form.php:743
 msgid "Base Value (--base)"
-msgstr "Base Value (--base)"
+msgstr "基准值 (--base)"
 
 #: include/global_form.php:747
 msgid "Should be set to 1024 for memory and 1000 for traffic measurements."
@@ -10033,7 +10033,7 @@ msgstr "内存应该设置为1024,流量测量应该设置为1000."
 
 #: include/global_form.php:751
 msgid "Slope Mode (--slope-mode)"
-msgstr "斜坡模式 (--slope-mode)"
+msgstr "斜率模式 (--slope-mode)"
 
 #: include/global_form.php:754
 msgid "Using Slope Mode evens out the shape of the graphs at the expense of some on screen resolution."
@@ -12192,57 +12192,57 @@ msgstr "用于Graph Unit项目的字体. 输入有效的True Type 字体文件�
 #: include/global_settings.php:1230
 #, fuzzy
 msgid "Business Hours Settings"
-msgstr "用户设置"
+msgstr "工作时间设置"
 
 #: include/global_settings.php:1235
 msgid "Start of Business Day"
-msgstr ""
+msgstr "工作日开始"
 
 #: include/global_settings.php:1236
 msgid "The time your business hours start. Format: hh:mm"
-msgstr ""
+msgstr "您开始工作的时间。格式: hh:mm"
 
 #: include/global_settings.php:1243
 msgid "End of Business Day"
-msgstr ""
+msgstr "工作日结束"
 
 #: include/global_settings.php:1244
 msgid "The time your business hours end. Format: hh:mm"
-msgstr ""
+msgstr "您结束工作的时间。格式: hh:mm"
 
 #: include/global_settings.php:1251
 #, fuzzy
 msgid "Hide Weekends"
-msgstr "%d 周"
+msgstr "隐藏周末"
 
 #: include/global_settings.php:1252
 msgid "Only show business hours during weekdays."
-msgstr ""
+msgstr "仅在工作日显示工作时间"
 
 #: include/global_settings.php:1257
 msgid "Show business hours"
-msgstr ""
+msgstr "显示工作时间"
 
 #: include/global_settings.php:1258
 msgid "Display business hours on rrd graphs."
-msgstr ""
+msgstr "在 rrd 图上显示工作时间"
 
 #: include/global_settings.php:1263
 msgid "Color to use for business hours"
-msgstr ""
+msgstr "工作时间使用的颜色"
 
 #: include/global_settings.php:1264
 msgid "The color to be shown for business hours"
-msgstr ""
+msgstr "工作时间显示的颜色"
 
 #: include/global_settings.php:1271
 #, fuzzy
 msgid "Maximum number of days to show business hours"
-msgstr "每页最多显示多少列"
+msgstr "显示工作时间的最大天数"
 
 #: include/global_settings.php:1272
 msgid "After this number of days, the business hours will not be added to the graph. <br/>Recommended: 62 days"
-msgstr ""
+msgstr "超过此天数后，工作时间将不会添加到图形中.<br/>建议：62天"
 
 #: include/global_settings.php:1287
 msgid "Data Collection Enabled"
@@ -12326,7 +12326,7 @@ msgstr "每个snmpbulkwalk 请求应该返回多少个OID? 对于具有大型SNM
 #: include/global_settings.php:1371
 #, fuzzy
 msgid "SNMP Get OID Limit"
-msgstr "SNMP 获取"
+msgstr "SNMP 获取 OID 的限制"
 
 #: include/global_settings.php:1372
 #, fuzzy
@@ -12335,16 +12335,16 @@ msgstr "每个 snmpget 请求发出的默认最大 SNMP Get OID 数。对于设�
 
 #: include/global_settings.php:1379
 msgid "Refresh Poller Table Per Cycle"
-msgstr ""
+msgstr "每个周期刷新轮询器表"
 
 #: include/global_settings.php:1380
 msgid "This setting is for a single poller systems only to rebuild the poller output table on each polling cycle to prevent the memory table from swapping on very large systems with large databases that could use swap."
-msgstr ""
+msgstr "此设置仅适用于单个轮询器系统，以便在每个轮询周期重建轮询器输出表，以防止内存表在具有可以使用swap的大型数据库的非常大的系统上交换。"
 
 #: include/global_settings.php:1385
 #, fuzzy
 msgid "Data Collector Replication"
-msgstr "数据采集器信息"
+msgstr "数据采集器副本"
 
 #: include/global_settings.php:1390
 #, fuzzy
@@ -12359,7 +12359,7 @@ msgstr "创建poller 时使用的默认采集同步周期.此设置将影响远�
 #: include/global_settings.php:1397
 #, fuzzy
 msgid "Disable Resource Cache Replication"
-msgstr "重建资源缓存"
+msgstr "禁用资源缓存复制"
 
 #: include/global_settings.php:1398
 #, fuzzy
@@ -12368,16 +12368,16 @@ msgstr "默认情况下，主仙人掌数据收集器会将整个网站和插件
 
 #: include/global_settings.php:1403
 msgid "Disable Automatic Full Sync on Upgrade"
-msgstr ""
+msgstr "升级时禁用自动完全同步"
 
 #: include/global_settings.php:1404
 msgid "By default, upon upgrading the Main Cacti system, it will perform a Full Sync to all Data Collectors.  This process may be time consuming.  Therefore, to allow upgrades to be completed quicker, we provide this option.  Note that if this is disabled, the Cacti administrator must force this process from the Data Collectors interface after upgrade."
-msgstr ""
+msgstr "默认情况下，在升级主Cacti系统时，它将对所有数据收集器执行完全同步。这个过程可能很耗时。因此，为了更快地完成升级，我们提供了此选项。请注意，如果禁用此功能，Cacti管理员必须在升级后从Data Collectors接口强制执行此过程。"
 
 #: include/global_settings.php:1409
 #, fuzzy
 msgid "Additional Data Collector Settings"
-msgstr "远程数据采集器状态:"
+msgstr "其他Data Collector设置"
 
 #: include/global_settings.php:1414 include/global_settings.php:1630
 msgid "Invalid Data Logging"
@@ -12399,7 +12399,7 @@ msgstr "详细"
 
 #: include/global_settings.php:1425
 msgid "Number of PHP Script Servers"
-msgstr "Number of PHP Script Servers"
+msgstr "PHP Script Servers 数量"
 
 #: include/global_settings.php:1426
 #, fuzzy
@@ -12417,35 +12417,35 @@ msgstr "Cacti 将等待脚本完成的最长时间. 此超时值以秒为单位"
 
 #: include/global_settings.php:1441
 msgid "Periodic All Device Re-Index"
-msgstr ""
+msgstr "定期重新索引所有设备"
 
 #: include/global_settings.php:1446
 #, fuzzy
 msgid "Re-Index All Device Schedule"
-msgstr "索引重建方法"
+msgstr "重新索引所有设备清单"
 
 #: include/global_settings.php:1447
 msgid "At what frequency do you wish to Re-Index all Devices.  This Re-Index will occur at midnight at the frequency that you select."
-msgstr ""
+msgstr "您希望以何种频率重新索引所有设备。此重新索引将在午夜按您选择的频率进行."
 
 #: include/global_settings.php:1453
 msgid "Weekly on Sunday"
-msgstr ""
+msgstr "每周周日"
 
 #: include/global_settings.php:1454
 #, fuzzy
 msgid "Monthly on Sunady"
-msgstr "每月的某一天"
+msgstr "每月的周日"
 
 #: include/global_settings.php:1458
 #, fuzzy
 msgid "Background Timeout and Concurrent Process Settings"
-msgstr "图例字体设置"
+msgstr "后台超时和并发进程设置"
 
 #: include/global_settings.php:1463
 #, fuzzy
 msgid "Report Generation Timeout"
-msgstr "远程Agent 超时"
+msgstr "报告生成超时"
 
 #: include/global_settings.php:1464
 #, fuzzy
@@ -12462,7 +12462,7 @@ msgstr "%s分钟"
 #: include/global_settings.php:1476
 #, fuzzy
 msgid "Data Source Statistics Timeout"
-msgstr "数据来源统计"
+msgstr "数据源统计超时"
 
 #: include/global_settings.php:1477
 #, fuzzy
@@ -12472,12 +12472,12 @@ msgstr "Cacti的数据源统计脚本可以运行的最长时间，而不会产�
 #: include/global_settings.php:1491
 #, fuzzy
 msgid "RRDChecker Timeout"
-msgstr "DNS 超时"
+msgstr "RRDChecker 超时"
 
 #: include/global_settings.php:1492
 #, fuzzy
 msgid "The maximum amount of time Cacti's RRDfile Check script can run without generating a timeout error and being killed."
-msgstr "仙人掌的Spikekill脚本可以运行的最长时间，而不会产生超时错误并被杀死。"
+msgstr "Cacti的Spikekill脚本可以运行的最长时间，而不会产生超时错误并被杀死。"
 
 #: include/global_settings.php:1498 include/global_settings.php:1555
 #: include/global_settings.php:1569
@@ -12488,21 +12488,22 @@ msgstr "%s小时"
 #: include/global_settings.php:1504
 #, fuzzy
 msgid "Poller Commands Timeout"
-msgstr "后台命令超时"
+msgstr "Poller命令超时"
 
 #: include/global_settings.php:1505
 #, fuzzy
 msgid "The maximum amount of time Cacti's Background Commands script can run without generating a timeout error and being killed.  This script will perform tasks such as re-indexing Devices and pruning devices from Remote Data Collectors."
-msgstr "Cacti的Background Commands脚本可以运行的最长时间，而不会产生超时错误并被杀死。"
+msgstr "Cacti的后台命令脚本可以运行的最长时间，而不会产生超时错误并被杀死。此脚本将执行诸如重新索引设备和从远程数据收集器修剪设备之类的任务。"
+
 
 #: include/global_settings.php:1517
 #, fuzzy
 msgid "Poller Command Concurrent Processes"
-msgstr "并发进程"
+msgstr "Poller命令并发进程"
 
 #: include/global_settings.php:1518
 msgid "The number of concurrent Poller Command processes.  The will be at most one concurrent command per host within the Poller Command pool."
-msgstr ""
+msgstr "并发轮询器命令进程的数目。轮询器命令池中的每个主机最多只能有一个并发命令。"
 
 #: include/global_settings.php:1522 include/global_settings.php:2115
 #: include/global_settings.php:2242 include/global_settings.php:2349
@@ -12560,51 +12561,51 @@ msgstr "维护后台生成超时"
 #: include/global_settings.php:1546
 #, fuzzy
 msgid "The maximum amount of time a Cacti's Maintenance script can run without generating a timeout error and being killed."
-msgstr "仙人掌维护脚本可以运行的最长时间，而不会产生超时错误并被杀死。"
+msgstr "Cacti维护脚本可以运行的最长时间，而不会产生超时错误并被杀死."
 
 #: include/global_settings.php:1559
 #, fuzzy
 msgid "Spikekill Background Generation Timeout"
-msgstr "Spikekill背景生成超时"
+msgstr "Spikekill后台生成超时"
 
 #: include/global_settings.php:1560
 #, fuzzy
 msgid "The maximum amount of time a Cacti's Spikekill script can run without generating a timeout error and being killed."
-msgstr "仙人掌的Spikekill脚本可以运行的最长时间，而不会产生超时错误并被杀死。"
+msgstr "Cacti的Spikekill脚本可以运行的最长时间，而不会产生超时错误并被杀死."
 
 #: include/global_settings.php:1576
 #, fuzzy
 msgid "Data Collector Defaults"
-msgstr "数据采集器"
+msgstr "默认数据采集器"
 
 #: include/global_settings.php:1577
 #, fuzzy
 msgid "These settings are maintained at the Data Collector level.  The values here are only defaults used when first creating a Data Collector."
-msgstr "这些设置在数据收集器级别维护。此处的值仅是首次创建数据收集器时使用的默认值。"
+msgstr "这些设置在数据收集器级别维护。此处的值仅是首次创建数据收集器时使用的默认值."
 
 #: include/global_settings.php:1582
 msgid "1h count warning threshold"
-msgstr ""
+msgstr "1h 计数警告阈值"
 
 #: include/global_settings.php:1583
 msgid "When this count of guarded ratio (below) is reached in one hour, warning will be written to log and email will be send. 0 = disable."
-msgstr ""
+msgstr "当在一小时内达到此保护比率计数（如下）时，将在日志中写入警告并发送电子邮件. 0 = 禁用."
 
 #: include/global_settings.php:1590
 msgid "1 hour guarded poller ratio run/max"
-msgstr ""
+msgstr "1小时保护轮询器比率运行/最大值"
 
 #: include/global_settings.php:1591
 msgid "Define guarded ratio poller run/max time (in percent)."
-msgstr ""
+msgstr "定义轮询器运行/最长时间的保护比率（百分比）."
 
 #: include/global_settings.php:1603
 msgid "24 hours guarded poller ratio run/max"
-msgstr ""
+msgstr "24小时保护轮询器比率运行/最大值"
 
 #: include/global_settings.php:1604
 msgid "Define guarded average ratio poller run/max time (in percent). When it is reached, warning will be written to log and email will be send. 0 = disable"
-msgstr ""
+msgstr "定义轮询器运行/最长时间的保护平均比率（百分比）.当到达时,将在日志中写入警告并发送电子邮件. 0 = 禁用."
 
 #: include/global_settings.php:1617
 #, fuzzy
@@ -12618,7 +12619,7 @@ msgstr "每个数据采集器的默认并发进程数.注意: 从Cacti 1.2开始
 
 #: include/global_settings.php:1625
 msgid "Spine Specific Execution Parameters"
-msgstr ""
+msgstr "Spine 特定执行参数"
 
 #: include/global_settings.php:1631
 #, fuzzy
@@ -12753,17 +12754,17 @@ msgstr "阈值"
 
 #: include/global_settings.php:1775
 msgid "Block use of a password once it reaches this reported usage level"
-msgstr ""
+msgstr "一旦密码达到此报告的使用级别，就阻止其使用."
 
 #: include/global_settings.php:1782
 #, fuzzy
 msgid "Basic Authentication Settings"
-msgstr "Web 基本身份认证"
+msgstr "基本身份验证设置"
 
 #: include/global_settings.php:1787
 #, fuzzy
 msgid "Basic Auth Login Failure Message"
-msgstr "基本身份验证映射文件"
+msgstr "基本身份验证登录失败消息"
 
 #: include/global_settings.php:1788
 #, fuzzy
@@ -13206,33 +13207,33 @@ msgstr "应该收集这个Cacti 系统的数据源统计数据吗?"
 #: include/global_settings.php:2221
 #, fuzzy
 msgid "Data Collection Method"
-msgstr "数据采集"
+msgstr "数据采集方法"
 
 #: include/global_settings.php:2222
 msgid "Data Source Statistics can use a legacy method where it will determine peak and average values, or an advanced mode which will calculated several additional statistical values in addition to peak and average.  Using All Statistical Metrics can place additional CPU and IO load on the system."
-msgstr ""
+msgstr "数据源统计可以使用传统方法来确定峰值和平均值，也可以使用高级模式来计算除峰值和平均外的几个额外统计值。使用所有统计指标会给系统增加额外的 CPU 和 IO 负载。"
 
 #: include/global_settings.php:2226
 msgid "Peak/Average Only"
-msgstr ""
+msgstr "仅峰值/平均值"
 
 #: include/global_settings.php:2227
 #, fuzzy
 msgid "All Statistical Metrics"
-msgstr "清除统计"
+msgstr "所有统计指标"
 
 #: include/global_settings.php:2231
 msgid "Calculate Peaks Stats in Addition to Average Stats"
-msgstr ""
+msgstr "计算除平均统计数据之外的峰值统计数据"
 
 #: include/global_settings.php:2232
 msgid "This option will double the data collection time.  If will use the MAX consolidation function and calculate statistics from the max values in each of the respective time ranges."
-msgstr ""
+msgstr "此选项将使数据收集时间加倍。如果将使用MAX合并函数，并根据各个时间范围中的最大值计算统计信息."
 
 #: include/global_settings.php:2237
 #, fuzzy
 msgid "Number of DSStats Processes"
-msgstr "Boost 进程数"
+msgstr "DSStats 进程数"
 
 #: include/global_settings.php:2238
 #, fuzzy
@@ -13278,7 +13279,7 @@ msgstr "数据存储设置"
 
 #: include/global_settings.php:2299
 msgid "Save Historical Data in Database Tables"
-msgstr ""
+msgstr "将历史数据保存在数据库表中"
 
 #: include/global_settings.php:2300
 msgid "Check this setting in order to keep a table for each day, week, month, and year data.  The times that these tables will be created will be based upon the following formula: Daily - One partition per day, Weekly - One Partition per Week, Monthly - One partition per Month, Yearly - One Partition per Year.  All tables will have the following suffixes by type Daily: YYYYDDD, Weekly: YYYYWW, Monthly: YYYYMM, and Yearly: YYYY suffixes."
@@ -13287,52 +13288,52 @@ msgstr ""
 #: include/global_settings.php:2305
 #, fuzzy
 msgid "Daily Partition Retention"
-msgstr "数据保留"
+msgstr "每日分区保留"
 
 #: include/global_settings.php:2306
 msgid "The number of Days, Weeks, Months, or Years to keep daily statistics."
-msgstr ""
+msgstr "要保留每日统计信息的天数、周数、月数或年数。"
 
 #: include/global_settings.php:2312
 #, fuzzy
 msgid "Weekly Partition Retention"
-msgstr "数据保留"
+msgstr "每周分区保留"
 
 #: include/global_settings.php:2313
 msgid "The number of Days, Weeks, Months, or Years to keep weekly statistics."
-msgstr ""
+msgstr "要保留每周统计信息的天数、周数、月数或年数."
 
 #: include/global_settings.php:2319
 msgid "Monthly Partition Retention"
-msgstr ""
+msgstr "每月分区保留"
 
 #: include/global_settings.php:2320
 msgid "The number of Days, Weeks, Months, or Years to keep monthly statistics."
-msgstr ""
+msgstr "要保留每月统计信息的天数、周数、月数或年数."
 
 #: include/global_settings.php:2326
 #, fuzzy
 msgid "Yearly Partition Retention"
-msgstr "数据保留"
+msgstr "每年分区保留"
 
 #: include/global_settings.php:2327
 msgid "The number of Days, Weeks, Months, or Years to keep yearly statistics."
-msgstr ""
+msgstr "要保留每年统计信息的天数、周数、月数或年数."
 
 #: include/global_settings.php:2333
 #, fuzzy
 msgid "RRDfile Check"
-msgstr "RRD 文件清理器"
+msgstr "RRD 文件检查"
 
 #: include/global_settings.php:2338
 #, fuzzy
 msgid "Enable RRDfile Check"
-msgstr "启用规则"
+msgstr "启用 RRDfile 检查"
 
 #: include/global_settings.php:2339
 #, fuzzy
 msgid "Should RRDfile Check be enabled for this Cacti system?"
-msgstr "应该收集这个Cacti 系统的数据源统计数据吗?"
+msgstr "是否应为此Cacti系统启用RRDfile检查？"
 
 #: include/global_settings.php:2344
 #, fuzzy
@@ -13347,12 +13348,12 @@ msgstr "用于处理boost 表中所有RRD 的并发boost 进程数."
 #: include/global_settings.php:2372
 #, fuzzy
 msgid "Check Frequency"
-msgstr "频率"
+msgstr "检查频率"
 
 #: include/global_settings.php:2373
 #, fuzzy
 msgid "How frequent should RRD be checked ?"
-msgstr "每天统计应该多频繁一次更新?"
+msgstr "RRD应多久检查一次？"
 
 #: include/global_settings.php:2379
 msgid "Data Storage Settings"
@@ -13397,25 +13398,25 @@ msgstr ""
 #: include/global_settings.php:2409
 #, fuzzy
 msgid "Device ID"
-msgstr "设备"
+msgstr "设备 ID"
 
 #: include/global_settings.php:2410
 #, fuzzy
 msgid "Device ID/Data Query ID"
-msgstr "删除数据查询"
+msgstr "设备ID/数据查询ID"
 
 #: include/global_settings.php:2411
 #, fuzzy
 msgid "Device Hash/Device ID"
-msgstr "设备名称"
+msgstr "设备 Hash/设备 ID"
 
 #: include/global_settings.php:2412
 msgid "Device Hash/Device ID/Data Query ID"
-msgstr ""
+msgstr "设备 Hash/设备 ID/数据查询 ID"
 
 #: include/global_settings.php:2416
 msgid "Max Device Hash Directories"
-msgstr ""
+msgstr "最大设备哈希目录数"
 
 #: include/global_settings.php:2417
 msgid "The maximum number of Device Directories to be created based upon hashed Device ID's."
