@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -781,7 +781,7 @@ function vdef_filter() {
 function get_vdef_records(&$total_rows, &$rows) {
 	/* form the 'where' clause for our main sql query */
 	if (get_request_var('filter') != '') {
-		$sql_where = 'WHERE rs.name LIKE ' . db_qstr('%' . get_request_var('filter') . '%');
+		$sql_where = 'WHERE name LIKE ' . db_qstr('%' . get_request_var('filter') . '%');
 	} else {
 		$sql_where = '';
 	}

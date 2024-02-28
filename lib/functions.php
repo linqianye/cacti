@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -5186,7 +5186,7 @@ function send_mail(array|string $to, string|array|null $from = null, string $sub
  * @param  null|string            $subject             Messgae subject
  * @param  null|string            $body                Message body, in HTML format
  * @param  null|string            $body_text           Messgae body, in TEXT format
- * @param  null|array             $attachments         Attachments to send
+ * @param  null|array|string      $attachments         Attachments to send
  * @param  null|array             $headers             Custom headers
  * @param  boolean                $html                Assume HTML format
  * @param  boolean                $expandIds           Find log style xxx[nn] and expand to full names
@@ -5196,7 +5196,7 @@ function send_mail(array|string $to, string|array|null $from = null, string $sub
  */
 function mailer(array|string $from, array|string $to, null|array|string $cc = null,
 	null|array|string $bcc = null, null|array|string $replyto = null, null|string $subject = null,
-	null|string $body = null, null|string $body_text = null, null|array $attachments = array(),
+	null|string $body = null, null|string $body_text = null, null|array|string $attachments = array(),
 	null|array $headers = array(), bool $html = true, bool $expandIds = false): string {
 	global $cacti_locale, $mail_methods;
 
@@ -6836,6 +6836,21 @@ function repair_system_data_input_methods($step = 'import') {
 						}
 
 						db_execute_prepared('DELETE FROM data_input_fields WHERE hash = ?', array($bhash['hash']));
+					} elseif ($bhash['hash'] == '35637c344d84d8aa3a4dc50e4a120b3f')  {
+						$data_input_field_id = db_fetch_cell_prepared('SELECT *
+							FROM data_input_fields
+							WHERE hash = ?',
+							array('35637c344d84d8aa3a4dc50e4a120b3f'));
+
+						if ($data_input_field_id > 0) {
+							db_execute_prepared('DELETE FROM data_input_fields
+								WHERE id = ?',
+								array($data_input_field_id));
+
+							db_execute_prepared('DELETE FROM data_input_data
+								WHERE data_input_field_id = ?',
+								array($data_input_field_id));
+						}
 					} else {
 						cacti_log('WARNING: Could not find Cacti default matching hash for unknown system hash "' . $bhash['hash'] . '" for ' . $data_input_id . '.  No repair performed.');
 					}
@@ -8415,8 +8430,10 @@ function cacti_time_zone_set($gmt_offset) {
 			$php_offset = $zone;
 			ini_set('date.timezone', $zone);
 		} else {
-			$php_offset = 'Etc/GMT' . ($hours > 0 ? '-':'+') . abs($hours);
-			ini_set('date.timezone', 'Etc/GMT' . ($hours > 0 ? '-':'+') . abs($hours));
+			// Adding the rounding function as some timezones are Etc/GMT+5.5 which is
+			// not supported in PHP yet.
+			$php_offset = 'Etc/GMT' . ($hours > 0 ? '-':'+') . abs(round($hours));
+			ini_set('date.timezone', 'Etc/GMT' . ($hours > 0 ? '-':'+') . abs(round($hours)));
 		}
 
 		$_SESSION[SESS_BROWSER_SYSTEM_TZ] = $sys_offset;

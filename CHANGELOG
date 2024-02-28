@@ -18,6 +18,7 @@ Cacti CHANGELOG
 -issue#5567: Incorrect variable name in change_device cli script
 -issue#5570: RRDChecker is started very often
 -issue#5573: Incorrect URL for editing graph template
+-issue#5639: Add tooltip info about IPv6 address
 -feature#412: Import Export for Graph and Tree rules
 -feature#1214: Move Tree Create/Remove/Modify Functions to lib/api_tree.php
 -feature#1442: Add validation to GUI inputs
@@ -98,6 +99,21 @@ Cacti CHANGELOG
 -feature: Upgrade d3.js to version 7.8.2
 -feature: Upgrade ua-parser.js to version 1.0.35
 
+1.2.27
+-issue#5622: Errors and deprecation warnings with PHP 8.3.0
+-issue#5628: Argument '--with-profile' is a invalid arg of cli/import_package.php
+-issue#5629: auth_changepassword.php cannot return to the refer url by just clicking the "Return" button once
+-issue#5636: Cacti 1.2.26 error on LDAP authentication the first time
+-issue#5638: Add tooltip info about IPv6 address
+-issue#5645: Boost poller fail to update rrd which Data Template and Graph Template items do not match
+-issue#5648: Fractional time offsets can cause huge webserver error-logs
+-issue#5649: Inapprorpiate use of PHP_OS in lib/ping.php on Windows Platform
+-issue#5655: Function get_allowed_devices can returns incorrect device list if session user_id variable is not set
+-issue#5660: Warning about unknown system hash during the update
+-issue#5661: On Linux and *NIX variants Cacti is unable to find ping6 as it's not in the path
+-issue#5662: installer - Undefined array key "name" warning in php8
+-issue#5669: System Utilities show incorrect System Memory if memory is larger than 1k
+
 1.2.26
 -issue#5464: PHP warning when view Data Source Info mode with new Data Source
 -issue#5481: Attempting to edit a Data Query that does not exist throws warnings and not an GUI error
@@ -127,12 +143,13 @@ Cacti CHANGELOG
 -issue#5586: CSV export displays data shifted by rrd step interval
 -issue#5589: When a graph has a real long cdef in graph debug mode, it forces an undesirable scroll
 -issue#5590: Secondary LDAP server not evaluated when the first one has failed
--issue#5602: Missing "break" for case statement in cli/add_device.php
--issue#5609: XML Bug when parsing Data Query XML Resource File when no field direction attribute is specified
--issue#5612: Function db_check_reconnect() does not properly return a value
--feature#5577: Provide new templates for ArubaOS switch, Aruba wifi controller and HPE iLO to be available during install
--feature#5597: Provide new templates for Arubai OSCX 6x00 switch to be available during install
-
+-issue#5602: When adding a device, using the bulk walk option can make version information appear
+-issue#5609: When parsing a Data Query resource, an error can be reported if no direction is specified
+-issue#5612: Database reconnection can cause errors to be reported incorrectly
+-issue#5613: fix returned value if $sau is empty
+-issue#5641: Cmd poller - add availability test for devices without poller items 
+-feature#5577: Add Aruba switch, Aruba controller and HPE iLO templates
+-feature#5597: Add OSCX 6x00 templates
 
 1.2.25
 -security#GHSA-77rf-774j-6h3p: Protect against Insecure deserialization of filter data
@@ -4024,4 +4041,4 @@ Cacti CHANGELOG
 -initial release
 
 -----------------------------------------------
-Copyright (c) 2004-2023 - The Cacti Group, Inc.
+Copyright (c) 2004-2024 - The Cacti Group, Inc.

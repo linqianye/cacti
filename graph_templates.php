@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -31,7 +31,7 @@ include_once('./lib/poller.php');
 include_once('./lib/template.php');
 include_once('./lib/utility.php');
 
-ini_set('max_execution_time', '-1');
+ini_set('max_execution_time', '0');
 
 $actions = array(
 	1 => __('Delete'),

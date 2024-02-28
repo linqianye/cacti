@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -1164,7 +1164,7 @@ class spikekill {
 							}
 						} else {
 							if ($this->method == SPIKE_METHOD_VARIANCE) {
-								if ($dsvalue > (1 + $this->percent) * $rra[$rra_num][$ds_num]['variance_avg']) {
+								if ($dsvalue > (1 + $this->percent) * (float) $rra[$rra_num][$ds_num]['variance_avg']) {
 									if ($kills < $this->numspike) {
 										if ($this->avgnan == 'avg') {
 											cacti_log("DEBUG: replacing dsvalue {$dsvalue} with variance_avg {$rra[$rra_num][$ds_num]['variance_avg']}", false, 'SPIKEKILL', POLLER_VERBOSITY_DEBUG);

@@ -363,7 +363,7 @@ function get_user_content() {
         +           '<li>'
         +				'<div>' + 'Zoom Level' + '</div>'
         +				'<div>'
-        +						'<input data-scope="theme" id="mdw_themeFontSize" data-func="changeGuiFontSize" type="range" min="65" max="100" step="2.5" value="'+ midWinter_Font_Size +'" defaultValue="87.5">'
+        +						'<input data-scope="theme" class="mdw_themeFontSize" id="mdw_themeFontSize" data-func="changeGuiFontSize" type="range" min="50" max="100" step="2.5" value="'+ midWinter_Font_Size +'" defaultValue="87.5">'
         +				'</div>'
         +           '</li>'
         +       '</ul>'
@@ -374,8 +374,8 @@ function get_user_content() {
 
 function get_tree_content() {
     let compact_tree_content =
-        '<div id="mdw_tree">'
-        +   '<div id="mdw_tree_content">'
+        '<div class="mdw_tree" id="mdw_tree">'
+        +   '<div class="mdw-treen_content" id="mdw_tree_content">'
         +   '</div>'
         +'</div>';
     return compact_tree_content;

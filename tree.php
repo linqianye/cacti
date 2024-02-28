@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -1477,7 +1477,7 @@ function tree_edit($partial = false) {
 			// as they would have been.
 			if ($(id).hasClass('jstree')) {
 				$(id).find('.jstree-node').each(function() {
-					var text   = $(this).find('.jstree-anchor').text();
+					var text   = DOMPurify.sanitize($(this).find('.jstree-anchor').text());
 					var id     = $(this).attr('id');
 					var jsdata = $(this).attr('data-jstree');
 

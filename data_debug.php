@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -691,7 +691,7 @@ function debug_view() {
 		array($id));
 
 	if (cacti_sizeof($dtd)) {
-		$real_path = str_replace('<path_rra>', CACTI_PATH_RRA, $dtd['data_source_path']);
+		$real_path = html_escape(str_replace('<path_rra>', $config['rra_path'], $dtd['data_source_path']));
 	} else {
 		$real_path = __('Not Found');
 	}

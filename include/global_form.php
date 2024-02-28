@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -1199,7 +1199,7 @@ $fields_host_edit = array(
 	'hostname' => array(
 		'method'        => 'textbox',
 		'friendly_name' => __('Hostname'),
-		'description'   => __('Fully qualified hostname or IP address for this device.'),
+		'description'   => __('Fully qualified hostname or IP address for this device. IPv6 address insert into brackets (example: [2001:abcd:1234::1])'),
 		'value'         => '|arg1:hostname|',
 		'max_length'    => '100',
 		'size'          => '60',

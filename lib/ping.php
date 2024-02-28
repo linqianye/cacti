@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -193,7 +193,7 @@ class Net_Ping {
 					$result = shell_exec('ping -t ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
 				} elseif (substr_count(strtolower(PHP_OS), 'freebsd')) {
 					if (strpos($this->host['hostname'], ':') !== false) {
-						$result = shell_exec('ping6 -X ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
+						$result = shell_exec('/usr/sbin/ping6 -X ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
 					} else {
 						$result = shell_exec('ping -t ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
 					}
@@ -203,7 +203,7 @@ class Net_Ping {
 					$result = shell_exec('ping -w ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
 				} elseif (substr_count(strtolower(PHP_OS), 'aix')) {
 					$result = shell_exec('ping -i ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' ' . $this->host['hostname']);
-				} elseif (substr_count(strtolower(PHP_OS), 'winnt')) {
+				} elseif (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
 					$result = shell_exec('chcp 437 && ping -w ' . $this->timeout . ' -n ' . $this->retries . ' ' . $this->host['hostname']);
 				} else {
 					/* please know, that when running SELinux, httpd will throw
@@ -211,18 +211,18 @@ class Net_Ping {
 					 * as it now tries to open an ICMP socket and fails
 					 * $result will be empty, then. */
 					if (strpos($host_ip, ':') !== false) {
-						$result = shell_exec('ping6 -W ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' -p ' . $pattern . ' ' . $this->host['hostname']);
+						$result = shell_exec('/usr/sbin/ping6 -W ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' -p ' . $pattern . ' ' . $this->host['hostname']);
 					} else {
 						$result = shell_exec('ping -W ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' -p ' . $pattern . ' ' . $this->host['hostname'] . ' 2>&1');
 
-						if ((strpos($result, 'unknown host') !== false || strpos($result, 'Address family') !== false) && file_exists('/bin/ping6')) {
-							$result = shell_exec('ping6 -W ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' -p ' . $pattern . ' ' . $this->host['hostname']);
+						if ((strpos($result, 'unknown host') !== false || strpos($result, 'Address family') !== false) && file_exists('/usr/sbin/ping6')) {
+							$result = shell_exec('/usr/sbin/ping6 -W ' . ceil($this->timeout / 1000) . ' -c ' . $this->retries . ' -p ' . $pattern . ' ' . $this->host['hostname']);
 						}
 					}
 				}
 			}
 
-			if (strtolower(PHP_OS) != 'winnt') {
+			if (strtoupper(substr(PHP_OS, 0, 3)) !== 'WIN' || ($fping != '' && file_exists($fping))) {
 				$position = strpos($result, 'min/avg/max');
 
 				if ($position > 0) {

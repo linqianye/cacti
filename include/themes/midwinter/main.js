@@ -1,6 +1,6 @@
 /*
   +-------------------------------------------------------------------------+
-  | Copyright (C) 2004-2023 The Cacti Group                                 |
+  | Copyright (C) 2004-2024 The Cacti Group                                 |
   |                                                                         |
   | This program is free software; you can redistribute it and/or           |
   | modify it under the terms of the GNU General Public License             |
@@ -119,7 +119,7 @@ function midWinterNavigation(element) {
 	let rubric_title 	= element.closest('div[class^="mdw-ConsoleNavigationBox"]').data('title');
 	let rubric_icon   	= $('.compact_nav_icon[data-helper="'+helper+'"]').html();
 
-	$('#navBreadCrumb .rubric').html( rubric_icon + rubric_title ).attr('data-helper', helper).off().on(
+	$('#navBreadCrumb .rubric').html( rubric_icon + '<span>' + rubric_title + '</span>').attr('data-helper', helper).off().on(
 		"click", {}, toggleCactiNavigationBox
 	);
 	$('#navBreadCrumb .category').html( category );
@@ -201,16 +201,17 @@ function setupTheme() {
 		$('<div id="mdw-GridContainer" class="mdw-GridContainer">' +
 			'<div id="mdw-ConsolePageHead" class="mdw-ConsolePageHead">'+
 				'<div id="navBreadCrumb" class="navBreadCrumb">'+
-				'<div class="rubric"></div><div class="separator">/</div>'+
-				'<div class="category"></div><div class="separator">/</div>'+
+				'<div class="home"><a href="'+urlPath+'index.php" class="pic">Home</a></div>'+
+				'<div class="rubric"></div>'+
+				'<div class="category"></div>'+
 				'<div class="action"></div>'+
 				'</div>' +
-				'<div id="navSearch"></div>'+
-				'<div id="navFilter">'+
+				'<div id="navSearch" class="navSearch"></div>'+
+				'<div id="navFilter" class="navFilter" >'+
 				//'<div id="reportrange"style="cursor: pointer; padding: 5px 10px; border: 1px solid var(--border-color);">' +
 				//'<i className="fa fa-calendar"></i>&nbsp;<span></span> <i className="fa fa-caret-down"></i>' +
 				'</div>'+
-				'<div id="navControl"></div>'+
+				'<div id="navControl" class="navControl" ></div>'+
 			'</div>' +
 			'<div id="mdw-ConsoleNavigation" class="mdw-ConsoleNavigation"></div>' +
 			'<div id="mdw-Main" class="mdw-Main"></div>' +
@@ -254,7 +255,7 @@ function setupTheme() {
 
 			/* dashboards */
 			new navigationButton('dashboards', 'Dashboards', 'fas fa-th-large', '#compact_tab_menu').build();
-			new navigationBox(cactiDashboards, 'dashboards', 'full','1', {
+			new navigationBox(cactiDashboards, 'dashboards', 'full','auto', {
 				close: false,
 				search: 'searchToHighlight',
 				resize: true
@@ -263,7 +264,7 @@ function setupTheme() {
 			/* settings */
 			if (cactiConsoleAllowed) {
 				new navigationButton('settings', 'Settings', 'fas fa-cogs', '#compact_tab_menu').build();
-				new navigationBox(zoom_i18n_settings, 'settings', 'full', '3', {
+				new navigationBox(zoom_i18n_settings, 'settings', 'full', 'auto', {
 					close: false,
 					search: 'searchToHighlight',
 					resize: true,
@@ -338,7 +339,7 @@ function setupThemeActions() {
 
 	//$('.cactiConsoleContentArea, .cactiGraphContentArea').off().on('click', toggleCactiNavigationBox);
 
-	$('#main').off().on('click', {param: 'off'}, toggleCactiNavigationBox);
+	$('#main, #navigation_right').off().on('click', {param: 'off'}, toggleCactiNavigationBox);
 	$('.mdw-ConsoleNavigationBox').off().on('click', hideDropDownMenu);
 	//$('.dropdown').off().on('click', toggleDropDownMenu);
 }
@@ -479,8 +480,6 @@ function setupDefaultElements() {
 
 			/* hide filter table title */
 			$('#filterTableOnTop .cactiTableTitle').detach();
-
-			$(".navBarNavigation:first").detach(); //.appendTo('#filterTableOnTop');
 			$("#filterTableOnTop").removeClass('hide');
 		}
 	}

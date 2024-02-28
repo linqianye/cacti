@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -32,9 +32,9 @@ function api_delete_graphs(&$local_graph_ids, $delete_type, $update_totals = tru
 
     if ($update_totals) {
 		if ($delete_type == 2) {
-	        object_cache_get_totals('graph_delete', $local_data_ids);
+	        object_cache_get_totals('graph_delete', $local_graph_ids);
 		} else {
-	        object_cache_get_totals('graph_leave', $local_data_ids);
+	        object_cache_get_totals('graph_leave', $local_graph_ids);
 		}
     }
 

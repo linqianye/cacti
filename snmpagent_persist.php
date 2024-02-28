@@ -2,7 +2,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -78,7 +78,7 @@ get_options();
 $php            = cacti_escapeshellcmd(read_config_option('path_php_binary'));
 $extra_args     = '-q ' . cacti_escapeshellarg('./snmpagent_mibcache.php');
 
-if (strstr(PHP_OS, 'WIN')) {
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
 	/* windows part missing */
 	pclose(popen('start "CactiSNMPCache" /I /B ' . $php . ' ' . $extra_args, 'r'));
 } else {

@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -54,6 +54,29 @@ switch ($action) {
 
 			exit;
 		}
+}
+
+if (isset($_SERVER['HTTP_REFERER'])) {
+	$return = $_SERVER['HTTP_REFERER'];
+
+	if (basename($return) != 'auth_changepassword.php') {
+		if (strpos($return, '/plugins/') !== false) {
+			$parts  = explode('/plugins/', $return);
+			$return = $config['url_path'] . 'plugins/' . $parts[1];
+		} else {
+			$return = $config['url_path'] . basename($return);
+		}
+
+		$_SESSION['acp_return'] = $return;
+	} else {
+		if (isset($_SESSION['acp_return'])) {
+			$return = $_SESSION['acp_return'];
+		} else {
+			$return = $config['url_path'] . 'index.php';
+		}
+	}
+} else {
+	$return = $config['url_path'] . 'index.php';
 }
 
 $user = db_fetch_row_prepared('SELECT *
@@ -418,7 +441,7 @@ html_auth_header('change_password', __('Change Password'), __('Change Password')
 	</tr>
 	<tr>
 		<td colspan='2' class='nowrap'><input type='submit' class='ui-button ui-corner-all ui-widget' value='<?php print __esc('Save'); ?>'>
-			<?php print $user['must_change_password'] != 'on' ? "<input type='button' class='ui-button ui-corner-all ui-widget' onClick='window.history.go(-1)' value='".  __esc('Return') . "'>":'';?>
+			<?php print $user['must_change_password'] != 'on' ? "<input type='button' class='ui-button ui-corner-all ui-widget' onClick='document.location=\"$return\"' value='".  __esc('Return') . "'>":'';?>
 		</td>
 	</tr>
 <?php

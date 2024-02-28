@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2023 The Cacti Group                                 |
+ | Copyright (C) 2004-2024 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -261,6 +261,11 @@ $filename = get_current_page();
 
 if (isset($no_http_headers) && $no_http_headers == true) {
 	$config['is_web'] = false;
+
+	if (isset($_REQUEST) && cacti_sizeof($_REQUEST) || !isset($_SERVER['argv'])) {
+		print 'FATAL: This file can only be called from the command line.' . PHP_EOL;
+		exit;
+	}
 }
 
 if ($config['is_web'] && ini_get('session.auto_start') == 1) {
